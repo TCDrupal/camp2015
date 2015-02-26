@@ -27,7 +27,7 @@
           <div class="register-block">
               <div class="pointer"></div>
               <a href="<?php print url('register'); ?>"><span><?php print t('June 25th-28th, 2015'); ?></span>
-                <?php print t('Register Now!'); ?></a>
+                <?php //print t('Register Now!'); ?></a>
           </div>
 
       </div>
