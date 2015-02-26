@@ -1,0 +1,11 @@
+name = My Schedule
+core = 7.x
+package = Twin Cities Drupal Camp
+php = 5.2.4
+dependencies[] = flag
+dependencies[] = views
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:1
+features[flag][] = my_schedule
+features[views_view][] = my_schedule_table
+features_exclude[dependencies][ctools] = ctools

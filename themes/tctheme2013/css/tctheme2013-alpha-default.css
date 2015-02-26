@@ -1,0 +1,52 @@
+/* @override 
+	http://2013.tcdrupal.lan/sites/2013.tcdrupal.lan/themes/tctheme2013/css/tctheme2013-alpha-default.css?mm4nc2
+	http://2013.tcdrupal.lan/sites/2013.tcdrupal.lan/themes/tctheme2013/css/tctheme2013-alpha-default.css?mm7bvr
+*/
+
+/* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
+
+.logo-img {
+  margin-top: 20px;
+}
+
+.site-name-slogan {
+  margin: 0;
+  width: auto;
+  text-align: left;
+}
+
+/* User menu */
+#zone-user {
+  background: none;
+}
+
+#region-user-second .region-inner {
+  float: right;
+}
+
+#region-user-second li {
+	border: none;
+  float: left;
+  padding: 0;
+}
+
+#region-user-second li a {
+  border-right: 1px solid #fff;
+}
+
+.block-user-menu,
+.block-search-form {
+  float: left;
+  margin-top: 10px;
+  position: relative;
+  z-index: 999;
+}
+
+.block-search-form {
+  margin: 10px 0 0 0;
+}
+
+.block-search-form .form-text {
+  width: auto;
+}
+

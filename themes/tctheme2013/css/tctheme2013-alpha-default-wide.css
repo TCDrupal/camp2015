@@ -1,0 +1,36 @@
+/* This file will hold styles that are loaded using the same media query as the wide grid. */
+
+ul.quicktabs-tabs {
+  width: 280px;
+}
+
+.quicktabs_main {
+  height: 300px;
+  width: 596px;
+}
+
+.quicktabs_main .views-field-field-image {
+  width: 300px;
+}
+
+.quicktabs_main .views-field-title,
+.quicktabs_main .views-field-body {
+  width: 280px;
+}
+
+.view-id-front_page .views-row {
+  width: 256px;
+}
+
+.view-id-sponsors .views-row {
+  height: 256px;
+  width: 256px;
+}
+
+.view-id-news .views-field-body {
+  width: 580px;
+}
+
+.view-id-news .views-field-field-image {
+  width: 280px;
+}

@@ -1,0 +1,200 @@
+/*BLOCKS*/
+
+//copyright 
+.block--block-1 {
+	font-family:$header;
+	@include breakpoint($tab, true) {
+		@include float-span(3,1,6);
+		text-align: left;
+  	}
+}
+
+//search block
+.block--search-form {
+}
+
+//cityscape artwork
+.block--block-3 {
+	position: absolute;
+	bottom:130px;
+	max-width:300px;
+	overflow: hidden;
+
+	@include breakpoint($tab,true) {
+		max-width: none;
+	}
+
+}
+
+//mailchimp
+.block--mailchimp-lists {
+
+	.block__content {
+		padding: 0 20px;
+	}
+
+}
+
+//key info
+.block--tcdrupalblocks-camp-info {
+	h2 {
+		margin-top: 0;
+		background:$tcdc-orange;
+	}
+}
+
+//social media icons
+.block--block-2 {
+	
+	@include breakpoint($tab, true) {
+		@include float-span(3,4,6);
+	}
+	@extend %hlist;
+
+	ul {
+		float: right;
+	}
+
+	li {
+	  	a {
+			@include font-size(14px);
+			margin-right: 10px;
+			text-indent: 0;
+			
+			.screen-reader-text {
+				  display: none;
+			}
+
+		  	&:hover {
+		  		text-decoration: none;
+		  		.screen-reader-text {
+		  			display: inline;
+		  		}
+
+		  	}
+  		}
+  	}
+
+	
+
+	li a:before {
+		@include font-size(20px);
+
+		&:hover {
+			margin-right: 0px;
+		}
+	}
+
+	li.blogs a:before {
+		@include fonticon("k")
+	}
+	li.facebook a:before {
+		@include fonticon("c")
+	}
+
+	li.twitter a:before {
+		@include fonticon("d")
+	}
+
+	li.newsletter a:before {
+		@include fonticon("l")
+	}
+
+	li.rss a:before {
+		@include fonticon("e")
+	}
+
+}
+
+//menu block
+.menu-block-wrapper  {
+	
+	ul.menu {
+		padding: 0;
+
+		li.leaf {
+		list-style-image: none;
+		list-style: none;
+		margin-bottom: 1em;
+		line-height: 1.2;
+		}
+	}
+}
+
+//Register Block
+
+.register-block {
+	
+	background:$tcdc-orange;
+	font-family:$header;
+	font-weight:700;
+
+	@include breakpoint($tab,true) {
+		position: absolute;
+		top: 75px;
+		right:10px;
+		}
+
+
+	a {
+	  color:$tcdc-white;
+	  display: block;
+	  text-transform: uppercase;
+	  width: 100%;
+	  padding: 10px;
+	  margin:0.03em 0;
+	  @include font-size(22px);
+	  text-align: center;
+	  @include breakpoint($tab,true) {
+	  		  padding: 20px 60px;
+	  		  @include font-size(28px);
+	  }
+	
+		span {
+		  color: #000;
+		  display: block;
+		  text-transform: none;
+		  @include font-size(20px);
+		}
+	}
+
+	.pointer {
+		border-color:transparent $tcdc-orange transparent transparent;
+	    border-style: solid;
+	    border-width: 15px 35px 15px 0;
+	    height: 0;
+	    left: -35px;
+	    position: absolute;
+	    top: 30px;
+	    width: 0;
+	    float: left;
+	}
+
+	.early-bird {
+		@include font-size(14px);
+		margin: 0;
+		position: relative;
+		bottom:-25px;
+		left: 0;
+	    position: absolute;
+	    right: 0;
+	    text-align: center;
+	}
+}
+
+
+//Platinum Sponsors
+.block--views-sponsors-block-1 {
+
+	h2 {
+		@include background-image(linear-gradient(#eee, #ddd));
+
+
+	}
+
+	.view-display-id-attachment_1 h2 {
+		background:gold;
+	}
+
+}
+

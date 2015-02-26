@@ -1,0 +1,42 @@
+// Hide the toolbar or admin menu on small screens.
+@media all and (max-width: 800px) {
+  #toolbar, #admin-menu {
+    display: none;
+  }
+
+  html {
+    body.toolbar, body.admin-menu {
+      padding-top: 0 !important;
+      margin-top: 0 !important;
+    }
+  }
+}
+
+
+//OLD 2013 style dump
+
+
+.register-block a {
+
+
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+
+  background: #f8a542; /* Old browsers */
+  background: -moz-linear-gradient(top,  #f8a542 0%, #e08828 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8a542), color-stop(100%,#e08828)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #f8a542 0%,#e08828 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #f8a542 0%,#e08828 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #f8a542 0%,#e08828 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #f8a542 0%,#e08828 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8a542', endColorstr='#e08828',GradientType=0 ); /* IE6-9 */
+}
+
+.register-block a:hover {
+  -webkit-box-shadow:  2px 1px 6px 1px rgba(00, 00, 00, 0.5);
+  box-shadow:  2px 1px 6px 1px rgba(00, 00, 00, 0.5);
+}
+

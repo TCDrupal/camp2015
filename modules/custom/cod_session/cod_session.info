@@ -1,0 +1,12 @@
+name = COD Session
+description = COD Session Scheduling & Voting
+core = 7.x
+package = COD
+php = 5.2.4
+project = cod_support
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:1
+features[views_view][] = cod_session_schedule
+features[views_view][] = cod_session_schedule_entity
+features[views_view][] = cod_session_schedule_room_list
+files[] = cod_session_views_style_plugin_schedule.inc

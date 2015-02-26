@@ -1,0 +1,37 @@
+name = TCDC Omega
+description = Please provide a description for your theme.
+base theme = omega
+screenshot = screenshot.png
+engine = phptemplate
+core = 7.x
+
+; ========================================
+; Stylesheets
+; ========================================
+stylesheets[all][] = css/tcdc-omega.normalize.css
+stylesheets[all][] = css/tcdc-omega.hacks.css
+stylesheets[all][] = css/tcdc-omega.styles.css
+stylesheets[all][] = css/tcdc-omega.no-query.css
+
+; ========================================
+; Scripts
+; ========================================
+scripts[] = js/tcdc-omega.behaviors.js
+scripts[] = js/ios-orientationchange-fix.js
+scripts[] = js/off-canvas.js
+scripts[] = js/jquery.evenHeights.1.0.0-min.js
+;scripts[] = js/grid.js
+scripts[] = js/custom.js
+
+; ========================================
+; Regions
+; ========================================
+regions[branding] = Branding
+regions[header] = Header
+regions[navigation] = Navigation
+regions[highlighted] = Highlighted
+regions[help] = Help
+regions[content] = Content
+regions[sidebar_first] = First Sidebar
+regions[sidebar_second] = Second Sidebar
+regions[footer] = Footer

@@ -1,0 +1,120 @@
+/*Base styles for links, backgrounds, and other misc*/
+
+//custom selection color
+::-moz-selection { background:lime;color:#000;}
+::selection {background:lime;color:#000;}
+
+html {
+    @include grid-toggle;
+}
+
+/*Background Colors*/
+body {
+  background:$tcdc-white;
+  color: #404040;
+}
+
+/**
+ * $LINKS
+ */
+a {
+  
+  &:link, &:visited {
+  color:darken($tcdc-blue,10%);
+  text-decoration: none;
+  outline: none;
+  }
+
+  &:hover, &:focus {
+    text-decoration: underline;
+    color: $tcdc-orange;
+  }
+
+  &.active, &:active {
+    color:darken($tcdc-orange,10%);
+  }
+  
+}
+
+/**
+ *MISC
+ */
+
+a.toggler {
+  color: $grey;
+
+  &:hover {
+    color: $dark-grey;
+    cursor: hand;
+  }
+}
+.toggler:after {
+  content: " +";
+}
+
+.toggler.open {
+  color:$grey;
+}
+.toggler.open.active:after {
+      content: " -";
+}
+
+
+.floatright {
+  @include breakpoint($tab, true) {
+    @include floatright;
+  }
+}
+
+.floatleft {
+  @include breakpoint($tab, true) {
+    @include floatleft;
+  }
+}
+
+
+
+/* Sticky Footer ------------------- */
+
+html, body {
+  height: 100%;
+}
+
+.l-page {height: auto; min-height: 100%;}
+
+.l-main {
+    /* must be same height as the footer */
+    padding-bottom: 170px !important;//except when its not
+}
+
+.l-footer {
+    margin-top: -180px; /* negative value of footer height */
+    height: 180px;
+    width: 100%;
+    background:$tcdc-green;
+    float: left;
+    color: #ccc;
+    position: relative;
+    z-index: 3;
+    max-width: none;
+
+    .footer-wrap {
+      //region pulled above sticky footer
+      background:#ccc;
+  
+      .l-region-footer {
+        max-width: 1200px;
+        margin:10px auto;
+      }
+    }
+
+    .l-region--bottom {
+      margin:0 auto;
+      max-width: 1200px;
+      @include breakpoint($tab, true) {
+              padding: 30px 0 0;
+      }
+    }
+
+}
+

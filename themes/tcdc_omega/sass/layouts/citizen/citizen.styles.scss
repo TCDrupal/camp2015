@@ -1,0 +1,123 @@
+//Keep layout and styles separate if possible//
+//and custom weird crap put here//
+/*******************************************************************************
+ * citizen.styles.scss
+ *
+ * Styling of the "citizen" styles layout
+ ******************************************************************************/
+@import "compass";
+@import "breakpoint";
+@import "singularitygs";
+
+// Globbing from within sub-folders only works with relative paths.
+@import "../../variables/**/*";
+@import "../../abstractions/**/*";
+
+
+/* Header ---------------- */
+
+.l-header {
+    position: relative;
+    .top-header-wrap {
+      z-index: 500;
+      background:$tcdc-blue;
+      @include clearfix;
+    }
+
+
+    .l-constrained {
+      padding: 0;
+    }
+
+  //header region
+  .l-region--header {
+    
+  }
+
+  //branding region
+  .l-branding {
+    @include constrained;
+    position: relative;
+
+    a.site-branding__logo {
+      display: block;
+      margin: auto;
+      max-width:150px;
+
+      &:hover {
+        @include opacity(0.8);
+      }
+    }
+  }
+
+  .site-branding__logo > img {
+    max-width: 150px;
+    
+
+    @include breakpoint($smalltab, true) {
+          margin: 10px auto;
+
+    }
+
+  }
+
+  //navigation region
+  .l-region--navigation {
+    @include constrained;
+    @include clearfix;
+    margin-bottom: 1em;
+    clear: both;//not sure why this is needed, maybe logo doesn't clear
+  }
+
+}//eof header
+
+/* Content Area ---------------*/
+
+.l-main {
+  min-height: 300px;
+}
+
+
+/* Sidebars */
+
+.l-region--sidebar-first,
+.l-region--sidebar-second {
+}
+
+
+
+/* Sticky Footer ------------------- */
+
+html, body {
+  height: 100%;
+}
+
+.l-page {height: auto; min-height: 100%;}
+
+.l-main {
+    /* must be same height as the footer */
+    padding-bottom:240px !important;
+
+    @include breakpoint($tab,true) {
+      padding-bottom: 400px !important;//except when its not
+    }
+}
+
+.l-footer-wrapper {
+    margin-top: -140px; /* negative value of footer height */
+    height: 140px;
+    width: 100%;
+    background:$tcdc-green;
+    float: left;
+    position: relative;
+    z-index: 3;
+}
+
+.footer-wrap {
+  @include constrained;
+
+  a {
+    color: $tcdc-white;
+  }
+}
+

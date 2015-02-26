@@ -1,0 +1,105 @@
+<?php
+/**
+ * @file
+ * Code for the Registration feature.
+ */
+
+include_once 'tcdrupalregistration.features.inc';
+
+/**
+ * Implements hook_form_alter().
+ */
+function tcdrupalregistration_form_alter (&$form, &$form_state, $form_id) {
+  if ($form_id == 'commerce_checkout_form_registration' || $form_id == 'commerce_checkout_form_checkout') {
+    global $user;
+    $account = entity_metadata_wrapper('user', user_load($user->uid));
+
+    if ($form_id == 'commerce_checkout_form_registration') {
+      foreach ($form_state['order']->commerce_line_items[LANGUAGE_NONE] as $item) {
+        $pkey = $item['line_item_id'] . 'prod-TCDRUPAL2013';
+        if (isset($form['registration_information'][$pkey])) {
+          foreach (element_children($form['registration_information'][$pkey]) as $key) {
+            $form['registration_information'][$pkey][$key]['field_first_name'][LANGUAGE_NONE][0]['value']['#default_value'] = $account->field_first_name->value();
+            $form['registration_information'][$pkey][$key]['field_last_name'][LANGUAGE_NONE][0]['value']['#default_value'] = $account->field_last_name->value();
+            $form['registration_information'][$pkey][$key]['field_company'][LANGUAGE_NONE][0]['value']['#default_value'] = $account->field_company->value();
+          }
+        }
+      }
+    }
+
+    if ($form_id == 'commerce_checkout_form_checkout') {
+
+    }
+  }
+}
+
+/**
+ * Implements hook_form_alter().
+ */
+function tcdrupalregistration_form_registration_form_alter(&$form, &$form_state) {
+  global $user;
+
+  if (user_access('administer registration')) {
+    return;
+  }
+
+  // IDs of events that require a user be registered for the camp.
+  $requires_registration = array(200, 201, 290);
+  // IDs of events that if you are registered for you're registered for the camp.
+  $camp_event_ids = array(2,14);
+
+  if (isset($form_state['registration']) && in_array($form_state['registration']->entity_id, $requires_registration)) {
+    $is_registered = FALSE;
+    if ($user->uid != 0) {
+      $is_registered = db_select('registration', 'r')
+        ->fields('r', array('registration_id'))
+        ->condition('user_uid', $user->uid)
+        ->condition('entity_id', $camp_event_ids, 'IN')
+        ->execute()
+        ->fetchColumn();
+    }
+
+    if (!$is_registered) {
+      foreach (element_children($form) as $key) {
+        $form[$key]['#access'] = FALSE;
+      }
+      $form['oops'] = array(
+        '#type' => 'markup',
+        '#markup' => '<p><strong>Note:</strong> You must <a href="' . url('register') . '">register for the camp</a> and be <a href="'. url('user/login') . '">logged into your account</a> in order to register for this event.</p>',
+      );
+    }
+  }
+}
+
+/**
+ * Implements hook_node_view().
+ */
+function tcdrupalregistration_node_view($node, $view_mode = 'full') {
+  global $user;
+
+  // IDs of events that require a user be registered for the camp.
+  $requires_registration = array(200, 201, 290);
+  // IDs of events that if you are registered for you're registered for the camp.
+  $camp_event_ids = array(2,14);
+
+  if ($node->type == 'event' && in_array($node->nid, $requires_registration)) {
+    $is_registered = FALSE;
+    if ($user->uid != 0) {
+      $is_registered = db_select('registration', 'r')
+        ->fields('r', array('registration_id'))
+        ->condition('user_uid', $user->uid)
+        ->condition('entity_id', $camp_event_ids, 'IN')
+        ->execute()
+        ->fetchColumn();
+    }
+
+    if (!$is_registered) {
+      $node->content['field_event_registration']['#access'] = FALSE;
+      $node->content['oops'] = array(
+        '#type' => 'markup',
+        '#markup' => '<p><strong>Note:</strong> You must <a href="' . url('register') . '">register for the camp</a> and be <a href="'. url('user/login') . '">logged into your account</a> in order to register for this event.</p>',
+        '#weight' => 100,
+      );
+    }
+  }
+}
