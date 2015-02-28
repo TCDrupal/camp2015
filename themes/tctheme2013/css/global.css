@@ -1,0 +1,1139 @@
+/* @override http://2013.tcdrupal.lan/sites/2013.tcdrupal.lan/themes/tctheme2013/css/global.css?mm7bvr */
+
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+
+body {
+  font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
+  font-size: 82%;
+}
+
+body #page {
+  background: #faf7f0 url(../images/background_page.png) repeat-x 0 0;
+}
+
+
+/*LINKS AND HEADER */
+
+a {
+  color: #105281;
+}
+
+a:hover {
+  color: #2e2e2e;
+  text-decoration: underline;
+}
+
+.logo-img {
+  margin-top: 10px;
+}
+
+.branding-data {
+  text-align: center;
+}
+
+.logo-img {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.site-name,
+.register-block {
+  margin-top: 18px;
+}
+
+.site-name-slogan {
+  margin: 0 0 20px 0;
+  width: 100%;
+  text-align: center;
+}
+
+.site-name a,
+.site-name a:hover {
+  color: #392e1f;
+  font-family: "Rockwell", Georgia, serif;
+  /* @todo: fix for responsive */
+  font-size: .75em;
+  font-weight: bold;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+
+.site-name .left {
+  color: #125d31;
+  text-align: right;
+}
+
+.site-name .right {
+  border-left: 1px solid #808080;
+  /* Fixes the grid after the getting this, adn the .left element
+  aligned */
+  margin-right: -14px;
+  padding-left: 20px;
+}
+
+
+/*TYPOGRAPHY */
+
+h1,
+h2,
+h3,
+h3
+h4,
+h5 {
+  font-family: 'RokkittRegular', Georgia, serif;
+  letter-spacing: 0;
+  line-height:1em;
+  font-weight:normal;
+}
+
+
+h1 {
+  margin:0 0 .2em;
+  line-height:120%;
+  font-size:3.6em;
+}
+
+h2 {
+  margin:0 0 .4em;
+  font-size:2.3em;
+
+}
+
+h2.block-title {
+  font-size: 2em;
+  margin: 0;
+  line-height:1.2em;
+
+}
+
+h3 {
+  margin:0 0 .4em;
+  font-size:2em;
+}
+
+h4 {
+  font-size:1.6em;
+}
+
+
+p {
+  margin:0 0 1em;
+  line-height:160%;
+}
+
+/**
+ * @group Main Menu
+ */
+#zone-menu-wrapper {
+  margin: 10px 0 20px 0;
+}
+
+.region-menu {
+  border-bottom: 1px solid #808080;
+}
+
+#zone-menu-wrapper li {
+  list-style: none;
+  padding: 4px 32px 0 0;
+  margin: 0;
+  display: block;
+  float: left;
+
+}
+
+#zone-menu-wrapper a {
+  color: #0d618e;
+  display: block;
+  font-family: 'RokkittRegular', Georgia, serif;
+  font-size: 1.9em;
+  text-decoration: none;
+
+}
+
+#zone-menu-wrapper a:hover {
+  color: #82c04f;
+}
+
+#zone-menu-wrapper a.active,
+#zone-menu-wrapper li.active-trail a {
+  color: #362b1f;
+}
+
+/**
+ * @group User Menu
+ */
+#zone-user {
+  background-color: #448ec6;
+}
+
+#region-user-second li {
+  border-bottom: 1px solid #fff;
+  display: block;
+  list-style: none;
+  padding: 5px 0;
+  margin: 0;
+  font-family: 'RokkittRegular', Georgia, serif;
+  font-size:1.2em;
+}
+
+#region-user-second li a {
+  color: #fff;
+  display: block;
+  padding: 2px 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  -webkit-transition: background 0.75s ease-in;
+  -moz-transition: background 0.75s ease-in;
+  -ms-transition: background 0.75s ease-in;
+  -o-transition: background 0.75s ease-in;
+  transition: background 0.75s ease-in;
+}
+
+#region-user-second li.first a {
+  border-left: none;
+}
+
+#region-user-second li.last a {
+  border-right: none;
+}
+
+#region-user-second li a:hover {
+  background: #316386;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.block-search-form {
+  margin: 10px;
+}
+
+.block-search-form .form-text {
+  float: left;
+  width: 75%;
+  font-size: 1em;
+}
+
+.block-search-form .form-submit {
+  background: #000;
+  color: #fff;
+  float: none;
+  font-weight: normal;
+  margin: 1px 0 0 10px;
+  text-shadow: none;
+  text-transform: uppercase;
+
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.block-search-form .form-submit:hover {
+  background: #75bb3e;
+}
+
+/* @end User Menu */
+
+.register-block a {
+  color: #fff;;
+  display: block;
+  float: left;
+  font-family: "Rockwell", Georgia, serif;
+  font-weight: bold;
+  font-size: 1.6em;
+  line-height: 1em;
+  padding: 16px 0px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%;
+
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+
+  background: #f8a542; /* Old browsers */
+  background: -moz-linear-gradient(top,  #f8a542 0%, #e08828 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8a542), color-stop(100%,#e08828)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #f8a542 0%,#e08828 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #f8a542 0%,#e08828 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #f8a542 0%,#e08828 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #f8a542 0%,#e08828 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8a542', endColorstr='#e08828',GradientType=0 ); /* IE6-9 */
+}
+
+.register-block a span {
+  color: #000;
+  display: block;
+  font-size: .8em;
+  text-transform: none;
+}
+
+.register-block a:hover {
+  -webkit-box-shadow:  2px 1px 6px 1px rgba(00, 00, 00, 0.5);
+  box-shadow:  2px 1px 6px 1px rgba(00, 00, 00, 0.5);
+}
+
+.register-block .pointer {
+  display: none;
+  float: left;
+  width: 0px;
+  margin-top: 22px;
+  height: 0px;
+  border-style: solid;
+  border-width: 15px 35px 15px 0;
+  border-color: transparent #e8933e transparent transparent;
+}
+
+/* @end Main Menu */
+
+/**
+ * @group SideBar
+ */
+
+#region-sidebar-second .block {
+  background: #fff;
+  border: 2px solid #dfdfdf;
+  margin: 0 0 20px 0;
+}
+
+#region-sidebar-second #block-menu-block-tcdrupalblocks-1,
+#region-sidebar-second #block-menu-block-tcdrupalblocks-1 .block-inner {
+  background: none;
+  border: none;
+}
+
+#region-sidebar-second #block-menu-block-tcdrupalblocks-1 h2 {
+  display: none;
+}
+
+#region-sidebar-second #block-menu-block-tcdrupalblocks-1 ul,
+#region-sidebar-second #block-menu-block-tcdrupalblocks-1 li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#region-sidebar-second #block-menu-block-tcdrupalblocks-1 a {
+  display: block;
+  font-size: 1.05em;
+  font-weight: bold;
+  padding: 4px 0;
+  text-decoration: none;
+}
+
+#region-sidebar-second #block-menu-block-tcdrupalblocks-1 a:hover {
+  text-decoration: underline;
+}
+
+#region-sidebar-second #block-menu-block-tcdrupalblocks-1 a:before {
+  content: '-';
+  padding-right: 6px;
+}
+
+#region-sidebar-second #block-menu-block-tcdrupalblocks-1 .active-trail a {
+  margin-left: -6px;
+}
+
+#region-sidebar-second .content {
+  padding: 10px;
+}
+
+#region-sidebar-second h2 {
+  background:#005f8f;/*TCDC navy*/
+  color: #fff;
+  font-family: "Rockwell", Georgia, serif;
+  font-size: 1.2em;
+  font-weight: normal;
+  margin-top: 20px;
+  margin-right: -10px;
+  padding: 4px 10px;
+  text-transform: uppercase;
+}
+
+#region-sidebar-second .block-inner {
+  background: url(../images/header-background-grey.png) no-repeat right 26px;
+  margin-right: -11px;
+  padding-right: 10px;
+}
+
+
+#block-mailchimp-lists-tcdrupal-email-list-freeform h2 {
+  background: #faa634;/*TCDC orange*/
+
+}
+
+#region-sidebar-second #block-tcdrupalblocks-about h2 {
+  background: #faa634;/*TCDC orange*/
+}
+
+#region-sidebar-second ul {
+  margin-left: 16px;
+}
+
+#region-sidebar-second .block input[type="text"],
+#region-sidebar-second .block input[type="password"] {
+  width: 100%;
+}
+
+#block-views-registration-state-block h2 {
+  background: #80c247;/*TCDC green*/
+}
+
+
+
+/* @end SideBar */
+
+/**
+ * @group Footer
+ */
+#section-footer {
+  background: url(../images/skyline.jpg) no-repeat center top;
+  margin-top: 100px;
+  padding-top: 205px;
+}
+
+#zone-footer-wrapper {
+  background: #9ec74e;
+  color: #fff;
+  padding: 20px 20px 80px;
+}
+/* @end Footer */
+
+
+
+/* NODE TYPE: ARTICLES */
+
+
+.node-type-article .field-name-field-image {
+  float:left;
+  margin:0 20px 20px;
+}
+
+/* badges node*/
+
+.page-node-164 .node .field-name-body  {
+  clear:none;/*this seems an overly broad declaration, to make all field-name-body clear:all??*/
+}
+.page-node-164 .field-name-body h4 {
+  margin:0 0 .2em;
+  font-weight:normal;
+}
+
+.page-node-164 .field-name-body ul li {
+  display:inline-block;
+  margin:0 1%;
+  list-style:none;
+  clear:both;
+}
+
+.page-node-164 .field-name-body ul li img {
+  border:1px solid blue;
+}
+
+/* VIEWS
+  ======================= */
+
+.item-list ul {
+  margin:0;
+}
+
+/*pagers, fix Omega issue*/
+.pager li.pager-first a, .pager li.pager-previous a, .pager li.pager-next a, .pager li.pager-last a {
+
+  width: 65px;
+}
+
+
+/**
+ * @group Sponsors
+ */
+.view-id-sponsors h3 {
+  background: #d64912;
+  clear: both;
+  color: #fff;
+  font-weight: normal;
+  padding: 2px 10px;
+  text-transform: uppercase;
+}
+
+.view-id-sponsors li.views-row {
+  background: #fff;
+  border: 2px solid #dfdfdf;
+  float: left;
+  width: 197px;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin:0 18px 20px 0;
+}
+
+.attachment .view-id-sponsors li.views-row {
+  width: 116px;
+  height: 116px;
+}
+
+#zone-content-wrapper .view-id-sponsors li.views-row:nth-child(3n+3) {
+  margin-right:0px;
+
+}
+
+#zone-postscript .view-id-sponsors li.views-row:nth-child(5n+5) {
+  margin-right:0px;
+
+}
+
+.view-id-sponsors .views-row {
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+.view-id-sponsors .views-row img {
+  max-width: 220px;
+}
+
+
+.view-id-sponsors .view-footer {
+  clear: both;
+}
+
+#zone-footer-wrapper .view-id-sponsors h3 {
+  text-transform: none;
+  background: none;
+  color: #000;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+#zone-footer-wrapper .view-id-sponsors li.views-row {
+  height: auto;
+  width: auto;
+  padding: 0;
+  background: none;
+  border: none;
+}
+
+/* @end Sponsors */
+
+.view-front-featured .view-footer {
+  display: block;
+  clear: both;
+  margin: 1em 0;
+}
+
+.view-front-featured .view-footer h2 {
+  font-size: 3em;
+  font-weight: normal;
+  margin: 0 0 .3em 0;
+}
+
+.view-front-featured .view-footer p {
+  font-size: 1.2em
+}
+
+.view-front-featured .view-footer a {
+  font-weight: bold;
+}
+
+.view-front-featured p,
+.view-id-front_page p {
+  color: #105281;
+}
+
+/* WHO'S COMING
+  ----------------------------*/
+.view-who-is-coming .view-content .item-list ul {
+  margin:0 0 1em;
+}
+
+.view-who-is-coming .view-content .item-list ul li {
+  float:left;
+  margin:0 2% 0 0;
+}
+
+.view-who-is-coming .item-list ul li a {
+  display: block;
+  max-width: 100px;
+  overflow: hidden;
+}
+
+
+/* this should move to size specific sheets */
+
+.view-id-front_page .view-footer {
+  float: left;
+  margin: 20px 0;
+  width: 100%;
+}
+
+.view-id-front_page .item-list ul {
+  margin:0;
+}
+
+.view-id-front_page li.views-row {
+  background: #fff;
+  border: 2px solid #dfdfdf;
+  float: left;
+  width: 95%;
+  padding: 10px;
+  margin:0 18px 20px 0;
+}
+
+.view-id-front_page li.views-row:nth-child(3n+3) {
+  margin-right:0px;
+}
+
+.view-id-front_page .views-row img {
+  float:  left;
+  margin-right: 20px;
+  height: auto;
+  width: 50%;
+}
+
+.view-id-front_page .views-row .views-field-field-image {
+  float: left;
+  margin-right: 20px;
+  width: 50%;
+}
+
+.view-id-front_page h3 {
+  font-size: 1.4em;
+  font-weight: normal;
+  line-height: 1.1em;
+  margin-top: .5em;
+}
+
+.view-id-front_page h3 a {
+  color: #000;
+  text-decoration: none;
+}
+
+.view-id-front_page .views-field-body {
+  color: #105281;
+}
+
+.node-form {
+  border: 2px solid #dfdfdf;
+  padding: 20px;
+}
+
+.node-form label {
+  color: #d64912;
+  padding: 0 0 4px 0;
+}
+
+.node-form label .field-edit-link {
+  color: #000;
+  font-size: .8em;
+  font-weight: normal;
+}
+
+.node-form label .field-edit-link a {
+  color: #000;
+}
+
+.node-form .form-item {
+  border-top: 2px solid #dfdfdf;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.node-form .filter-wrapper .form-item,
+.node-form .form-item-title {
+  border: none;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.filter-wrapper .form-item label {
+  color: #000;
+  font-weight: normal;
+}
+
+.filter-help {
+  display: none;
+}
+
+/* Registration state block on /register page */
+.region-content .block-registration-state-block {
+  font-size: 1.2em;
+  margin: 0 0 40px 0;
+  padding: 10px;
+  border: 1px solid #000;
+}
+
+.region-content .block-registration-state-block h2 {
+  display: none;
+}
+
+/* Registration page */
+
+.field-name-commerce-price {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.field-name-field-registration,
+.field-name-field-event-product .field-label {
+  display: none;
+}
+
+body .commerce-add-to-cart select {
+  display: block;
+  width: 100% !important;
+}
+
+.commerce-add-to-cart #edit-product-id {
+  width: 200px;
+}
+
+/* When viewing a registration entity */
+.entity-registration .field {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 0.5em;
+  padding: 0.5em 0 0.5em;
+}
+
+.entity-registration .field-label {
+  float: left;
+  margin-right: 1em;
+}
+
+/* My Comment */
+
+body .form-submit {
+  background: #adacad;
+  border: none;
+  color: #fff;
+  float: right;
+  text-shadow: none;
+  text-transform: uppercase;
+}
+
+body #edit-checkout,
+body #edit-submit {
+  background: #ec9243;
+}
+
+body .form-submit:hover,
+body #edit-checkout:hover,
+body #edit-submit:hover {
+  background: #000;
+  -webkit-transition: background 1s ease-in;
+  -moz-transition: background 1s ease-in;
+  -ms-transition: background 1s ease-in;
+  -o-transition: background 1s ease-in;
+  transition: background 1s ease-in;
+}
+
+.region-content form .form-submit {
+  margin: 20px 10px 20px 0;
+  padding: 10px 20px;
+}
+
+.form-checkbox {
+  font-size: 2em;
+}
+
+.form-item checkbox,
+.form-item input,
+
+.form-item textarea {
+  background: none;
+  border: 1px solid #14537f;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  color: #14537f;
+  font-size: 1.2em;
+  padding: 0 8px;
+  margin: 0;
+  font-family: serif;
+  letter-spacing: .06em;
+}
+
+.form-item checkbox:focus,
+.form-item input:focus,
+.form-item select:focus,
+.form-item textarea:focus {
+  background: #fff;
+  border-color: #666;
+  color: #000;
+  -webkit-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -ms-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+}
+
+.view-id-session_speakers .views-row {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.view-id-session_speakers .views-row-last {
+  border: none;
+  margin-bottom: none;
+}
+
+.view-id-session_speakers .views-field-field-last-name {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.view-id-session_speakers .views-field-field-registration-do-username .field-content {
+  display: inline;
+}
+
+.alpha-resize-indicator {
+  display: none;
+}
+
+ul.tabs {
+  border: 0;
+  border-collapse: none;
+  margin: 40px 0 20px 0;
+  padding: 0;
+}
+
+ul.tabs li {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul.tabs li a {
+  background: none;
+  border: 1px solid #dfdfdf;
+  border-bottom: 4px solid #e5863f;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 0;
+  padding: 8px 20px;
+}
+
+ul.tabs li a:hover {
+  background: none;
+}
+
+ul.tabs li a:hover,
+ul.tabs li a.active {
+  border: 1px solid #dfdfdf;
+  border-bottom: 4px solid #e5863f;
+  padding-top: 16px;
+
+  -webkit-box-shadow: 2px 0px 2px 2px #dfdfdf;
+  box-shadow: 0px -2px 2px 1px #dfdfdf;
+
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.view-id-news .views-row {
+  float: left;
+  border-bottom: 2px solid #ccc;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+.view-id-news .views-field-title h2 {
+  line-height: 1em;
+  margin: 0;
+  padding: 0;
+  width: 70%;
+}
+
+.view-id-news .views-field-created {
+  font-weight: bold;
+  text-align: right;
+  margin-top: -25px;
+  margin-bottom: 20px;
+}
+
+.view-id-news .views-field-body {
+  float: left;
+  width: 60%;
+}
+
+.view-id-news .views-field-field-image {
+  float: right;
+  text-align: right;
+  margin-left: 20px;
+  width: 30%;
+}
+
+.view-id-news .views-field-field-image img {
+  height: auto;
+  width: 100%;
+}
+
+.node .field-name-field-timeslot-ref,
+.node .field-name-field-room,
+.node .field-name-field-session-track,
+.node .field-name-field-session-experience-level {
+  float: left;
+  width: 25%;
+  margin-bottom: 20px;
+}
+
+.node .field-name-field-timeslot-ref {
+  margin-left: -10px;
+}
+
+.node .field-name-body {
+  clear: both;
+}
+
+.node .field-name-field-timeslot-ref .field-label,
+.node .field-name-field-room .field-label,
+.node .field-name-field-session-track .field-label,
+.node .field-name-field-session-experience-level .field-label {
+  border-bottom: 2px solid #ccc;
+  font-family: "Rockview", Georgia, serif;
+  margin: 0 10px 5px 10px;
+  text-transform: uppercase;
+}
+
+.node .field-name-field-timeslot-ref .field-items,
+.node .field-name-field-room .field-items,
+.node .field-name-field-session-track .field-items,
+.node .field-name-field-session-experience-level .field-items {
+  margin: 0 10px;
+}
+
+a.box-shadow-menu {
+  text-transform: uppercase;
+  text-decoration: none;
+  top: 10px;
+  left: 0;
+  color: #fff;
+  position: absolute;
+  line-height: 1.8em;
+  padding-left: 1.5em;
+  margin-left: 20px;
+}
+
+a.box-shadow-menu:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.6em;
+  width: 1em;
+  height: 0.2em;
+  background: #fff;
+  box-shadow:
+    0 0.25em 0 0 #fff,
+    0 0.5em 0 0 #fff;
+}
+
+/* Front page specific
+===================== */
+
+.view-id-front_page .views-row {
+  width: 196px; /* 220 - padding - border = 196 */
+}
+
+.view-id-front_page .views-row-2 {
+  margin: 0 20px;
+}
+
+.view-id-front_page .views-row .views-field-field-image {
+  float: none;
+  width: 100%;
+}
+
+.quicktabs-wrapper .item-list {
+  float: left;
+  width: 100%;
+  margin-top: 240px;
+  margin-bottom: -420px;
+}
+
+body ul.quicktabs-tabs {
+  float: left;
+  width: 100%;
+  max-width: none;
+}
+
+body ul.quicktabs-tabs li {
+  display: inline;
+  float: left;
+  height: auto;
+  width:100%;
+}
+
+body ul.quicktabs-tabs li a {
+  padding: 0 10px;
+  margin: 0;
+}
+
+.quicktabs-wrapper {
+  margin-bottom: 6em;
+}
+
+
+.page-admin-content-sessions td {
+  vertical-align:top;
+}
+.page-admin-content-sessions tr {
+  clear: print;
+  page-break-before: always;
+}
+
+.block .training-banner {
+  background: #fff;
+  border: 2px solid #dfdfdf;
+  padding: 10px;
+  overflow: visible;
+  font-size: 12px;
+  min-height: 216px;
+  margin-bottom: 30px;
+}
+
+/** Schedule page **/
+.view-schedule-table caption,
+.view-my-schedule-table caption{
+  border-bottom: 1px solid #ccc;
+  font-family: "Rockwell", Georgia, serif;
+  font-size: 1.25em;
+  margin: 4px 0;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.view-schedule-table table,
+.view-schedule-table th,
+.view-schedule-table table tr,
+.view-schedule-table table tr td,
+.view-my-schedule-table table,
+.view-my-schedule-table th,
+.view-my-schedule-table table tr,
+.view-my-schedule-table table tr td {
+  background: none;
+  border: none;
+}
+
+.view-schedule-table table tr,
+.view-my-schedule-table table tr{
+  border-bottom: 1px solid #ccc;
+}
+
+.view-schedule-table table,
+.view-my-schedule-table table{
+  margin-bottom: 30px;
+}
+
+.view-schedule-table table th,
+.view-schedule-table table td,
+.view-my-schedule-table table th,
+.view-my-schedule-table table td {
+  padding-left: 0;
+}
+
+.view-schedule-table table thead tr th,
+.view-my-schedule-table table thead tr th {
+  color: #666;
+  font-style: italic;
+}
+
+.view-schedule-table tr td.views-field-title,
+.view-my-schedule-table tr td.views-field-title {
+  font-weight: bold;
+}
+
+.view-schedule-table span,
+.view-my-schedule-table span{
+  font-weight: normal;
+}
+
+.view-schedule-table span a,
+.view-my-schedule-table span a {
+  color: #000;
+}
+
+.view-schedule-table span a,
+.view-schedule-table span.speaker-label,
+.view-my-schedule-table span a,
+.view-my-schedule-table span.speaker-label {
+  font-size: 0.85em;
+}
+
+.view-schedule-table span.track,
+.view-my-schedule-table span.track {
+  background: #ccc;
+  color: #fff;
+  display: inline-block;
+  font-size: 8px;
+  margin-left: 4px;
+  padding: 2px 4px;
+  text-transform: uppercase;
+
+  -webkit-border-radius: 0px 4px 4px 4px;
+  -moz-border-radius: 0px 4px 4px 4px;
+  border-radius: 0px 4px 4px 4px;
+}
+
+.view-schedule-table span.track-business,
+.view-my-schedule-table span.track-business{
+  background: #005f8f;
+}
+
+.view-schedule-table span.track-design_theming,
+.view-my-schedule-table span.track-design_theming{
+  background: #e5863f;
+}
+
+.view-schedule-table span.track-getting_started,
+.view-my-schedule-table span.track-getting_started{
+  background: #80c247;
+}
+
+.view-schedule-table span.track-community,
+.view-my-schedule-table span.track-community{
+  background: #c23431;
+}
+
+.view-schedule-table span.track-coding,
+.view-my-schedule-table span.track-coding{
+  background: #808080;
+}
+
+.view-schedule-table span.track-site_building,
+.view-my-schedule-table span.track-site_building{
+  background: #efd80f;
+  color: #000;
+}
+
+.view-schedule-table .views-field-field-session-room-ref,
+view-my-schedule-table .views-field-field-session-room-ref{
+  color: #666;
+  width: 35%;
+}
+
+.flag svg {
+  fill: #808080;
+  height: 15px;
+  width: 40px;
+}
+
+.flag:hover svg {
+  height: 18px;
+}
+
+.unflag-action svg {
+  fill: #c23431;
+}
+
+/* Hide flag on /register page */
+body.page-node-1 .flag-my_schedule {
+  display: none;
+}

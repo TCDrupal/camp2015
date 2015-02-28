@@ -1,0 +1,4 @@
+name = TCDrupal Registration Tweaks
+description = Customizations to the registration process.
+core = 7.x
+dependencies[] = registration

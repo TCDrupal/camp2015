@@ -1,0 +1,17 @@
+<?php
+/**
+ * @file
+ * Code for the tcdrupalmailchimp feature.
+ */
+
+include_once 'tcdrupalmailchimp.features.inc';
+
+/**
+ * Implements hook_form_FORM_ID_alter().
+ *
+ * Move the mailchimp lists checkboxes to the bottom of the registration form.
+ */
+function tcdrupalmailchimp_form_user_register_form_alter(&$form, &$form_state) {
+  $form['mailchimp_lists']['#description'] = t('<p>Singup for our mailing list to keep abreast of happenings at the camp and in the future.</p>');
+  $form['mailchimp_lists']['#weight'] = 10;
+}

@@ -1,0 +1,76 @@
+/* @override 
+	http://2013.tcdrupal.lan/sites/2013.tcdrupal.lan/themes/tctheme2013/css/tctheme2013-alpha-default-normal.css?mm4nc2
+	http://2013.tcdrupal.lan/sites/2013.tcdrupal.lan/themes/tctheme2013/css/tctheme2013-alpha-default-normal.css?mm7bvr
+*/
+
+/* This file will hold styles that are loaded using the same media query as the normal grid. */
+/* If you are using the default media queries provided by Omega, these styles will also
+ *  apply to the widescreen layout unless they are overridden by the widescreen styles. */
+
+/*ul.quicktabs-tabs {*/
+/*  width: 220px;*/
+/*}*/
+/**/
+/*.quicktabs_main {*/
+/*  height: 240px;*/
+/*  width: 476px;*/
+/*}*/
+/**/
+/*.quicktabs_main .views-field-field-image {*/
+/*  width: 240px;*/
+/*}*/
+/**/
+/*.quicktabs_main .views-field-title,*/
+/*.quicktabs_main .views-field-body {*/
+/*  width: 220px;*/
+/*}*/
+/**/
+
+.view-id-sponsors .views-row {
+  height: 200px;
+  width: 200px;
+}
+
+.view-id-front_page li.views-row {
+  height: 240px;
+  width: 197px;
+}
+
+.view-id-front_page li.views-row img {
+  width: 100%;
+}
+
+.logo-img,
+.register-block .pointer {
+  display: block;
+}
+
+.site-name a,
+.site-name a:hover {
+  font-size: 1.3em;
+}
+
+.register-block a {
+  width: 225px;
+}
+
+.quicktabs-wrapper {
+  margin: 0;
+}
+
+.quicktabs-wrapper .item-list {
+	float: right;
+  margin: 0;
+  width: auto;
+}
+
+body ul.quicktabs-tabs {
+	width: 280px;
+	max-width: 220px;
+}
+
+body ul.quicktabs-tabs li {
+  display: block;
+  min-height: 60px;
+  width: 100%;
+}

@@ -1,0 +1,159 @@
+/*******************************************************************************
+ * citizen.layout.scss
+ *
+ * Styling of the "citizen" PAGE layout
+ ******************************************************************************/
+/*set smaller to avoid huge gaps*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/layouts\/citizen\/citizen\.layout\.scss}line{font-family:\0000313}}
+.l-page {
+  margin: 0 auto;
+  width: 100%;
+  padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/layouts\/citizen\/citizen\.layout\.scss}line{font-family:\0000319}}
+.l-constrained {
+  *zoom: 1;
+  padding: 0 20px;
+  max-width: 980px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.tcdc_omega\/gems\/compass-0\.12\.6\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000338}}
+  .l-constrained:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+/* Header ---------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/layouts\/citizen\/citizen\.layout\.scss}line{font-family:\0000330}}
+.l-header .l-constrained {
+  margin: 0 auto;
+  position: relative;
+  padding: 0 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/layouts\/citizen\/citizen\.layout\.scss}line{font-family:\0000340}}
+.not-front .l-header .l-region--navigation {
+  border-bottom-style: solid;
+  border-bottom-width: 0.0625em;
+  padding-bottom: 0.3125em;
+  border-color: #cccccc; }
+
+/* Content Area ---------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/layouts\/citizen\/citizen\.layout\.scss}line{font-family:\0000350}}
+.l-main {
+  margin: 0 auto;
+  margin-top: 9px;
+  margin-bottom: 9px;
+  max-width: 980px; }
+
+/* Sidebars */
+/* Footer -----------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/layouts\/citizen\/citizen\.layout\.scss}line{font-family:\0000367}}
+.l-footer-wrapper {
+  padding: 18px 0;
+  /* for IE 6/7 */
+  *zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).style.cssText="clear:both;font:0/0 serif");
+  /* non-JS fallback */
+  *zoom: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.tcdc_omega\/gems\/singularitygs-1\.1\.2\/stylesheets\/singularitygs\/helpers\/_clearfix\.scss}line{font-family:\0000348}}
+  .l-footer-wrapper:before, .l-footer-wrapper:after {
+    content: ".";
+    display: block;
+    height: 0;
+    overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.tcdc_omega\/gems\/singularitygs-1\.1\.2\/stylesheets\/singularitygs\/helpers\/_clearfix\.scss}line{font-family:\0000355}}
+  .l-footer-wrapper:after {
+    clear: both; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/layouts\/citizen\/citizen\.layout\.scss}line{font-family:\0000372}}
+.bottom-wrap, .footer-wrap {
+  padding: 0 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/layouts\/citizen\/citizen\.layout\.scss}line{font-family:\0000376}}
+.l-region--footer, .l-region--bottom {
+  padding: 0; }
+
+@media (min-width: 47.5em) {
+  /* Header ---------------- */
+  /* Maincontent ---------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/layouts\/citizen\/citizen\.layout\.scss}line{font-family:\0000394}}
+  .l-main {
+    /* Sidebars */ }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/layouts\/citizen\/citizen\.layout\.scss}line{font-family:\00003101}}
+    .has-one-sidebar .l-main .l-content {
+      width: 65.51724%;
+      float: left;
+      margin-right: -100%;
+      margin-left: 0%;
+      clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/layouts\/citizen\/citizen\.layout\.scss}line{font-family:\00003106}}
+    .has-one-sidebar .l-main .l-region--sidebar-first,
+    .has-one-sidebar .l-main .l-region--sidebar-second {
+      width: 31.03448%;
+      float: right;
+      margin-left: 0;
+      margin-right: 0;
+      clear: none;
+      clear: right; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/layouts\/citizen\/citizen\.layout\.scss}line{font-family:\00003113}}
+    .has-two-sidebars .l-main .l-content {
+      width: 31.03448%;
+      float: left;
+      margin-right: -100%;
+      margin-left: 0%;
+      clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/layouts\/citizen\/citizen\.layout\.scss}line{font-family:\00003117}}
+    .has-two-sidebars .l-main .l-region--sidebar-first {
+      width: 31.03448%;
+      float: left;
+      margin-right: -100%;
+      margin-left: 34.48276%;
+      clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/layouts\/citizen\/citizen\.layout\.scss}line{font-family:\00003120}}
+    .has-two-sidebars .l-main .l-region--sidebar-second {
+      width: 31.03448%;
+      float: right;
+      margin-left: 0;
+      margin-right: 0;
+      clear: none; } }
+@media (min-width: 56.25em) {
+  /* Header ---------------- */
+  /* Maincontent ---------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/layouts\/citizen\/citizen\.layout\.scss}line{font-family:\00003142}}
+  .l-main {
+    /* Sidebars */ }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/layouts\/citizen\/citizen\.layout\.scss}line{font-family:\00003147}}
+    .has-one-sidebar .l-main .l-content {
+      width: 66.10169%;
+      float: left;
+      margin-right: -100%;
+      margin-left: 0%;
+      clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/layouts\/citizen\/citizen\.layout\.scss}line{font-family:\00003152}}
+    .has-one-sidebar .l-main .l-region--sidebar-first,
+    .has-one-sidebar .l-main .l-region--sidebar-second {
+      width: 32.20339%;
+      float: right;
+      margin-left: 0;
+      margin-right: 0;
+      clear: none;
+      clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/layouts\/citizen\/citizen\.layout\.scss}line{font-family:\00003159}}
+    .has-two-sidebars .l-main .l-content {
+      width: 49.15254%;
+      float: left;
+      margin-right: -100%;
+      margin-left: 0%;
+      clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/layouts\/citizen\/citizen\.layout\.scss}line{font-family:\00003163}}
+    .has-two-sidebars .l-main .l-region--sidebar-first,
+    .has-two-sidebars .l-main .l-region--sidebar-second {
+      width: 23.72881%;
+      float: left;
+      margin-right: -100%;
+      margin-left: 50.84746%;
+      clear: none;
+      clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/layouts\/citizen\/citizen\.layout\.scss}line{font-family:\00003167}}
+    .has-two-sidebars .l-main .l-region--sidebar-second {
+      width: 23.72881%;
+      float: right;
+      margin-left: 0;
+      margin-right: 0;
+      clear: none; } }

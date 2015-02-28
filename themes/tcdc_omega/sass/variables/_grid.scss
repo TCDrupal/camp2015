@@ -1,0 +1,21 @@
+// Set consistent vertical and horizontal spacing units.
+$vert-spacing-unit: 18px;
+$horz-spacing-unit: 1em;
+
+//breakpoints
+$breakpoint-to-ems: true;
+
+$largephone:400px;
+$smalltab:500px;
+$tab: 760px;
+$desk:900px;
+$onlysmall:max-width 759px; 
+$no-queries: 678px, 'no-query' true;
+
+
+$grids: 4;
+//$gutters: 1/3;
+$max-width:980px;
+
+$grids: add-grid(6 at $tab);
+$grids: add-grid(12 at $desk);

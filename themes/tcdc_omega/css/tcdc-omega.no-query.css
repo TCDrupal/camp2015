@@ -1,0 +1,2147 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.tcdc_omega\/gems\/singularitygs-1\.1\.2\/stylesheets\/singularitygs\/helpers\/_clearfix\.scss}line{font-family:\0000382}}
+.comment__content, .field--type-taxonomy-term-reference .field__items, .pager, .site-branding {
+  /* for IE 6/7 */
+  *zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).style.cssText="clear:both;font:0/0 serif");
+  /* non-JS fallback */
+  *zoom: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.tcdc_omega\/gems\/singularitygs-1\.1\.2\/stylesheets\/singularitygs\/helpers\/_clearfix\.scss}line{font-family:\0000348}}
+  .comment__content:before, .field--type-taxonomy-term-reference .field__items:before, .pager:before, .site-branding:before, .comment__content:after, .field--type-taxonomy-term-reference .field__items:after, .pager:after, .site-branding:after {
+    content: ".";
+    display: block;
+    height: 0;
+    overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.tcdc_omega\/gems\/singularitygs-1\.1\.2\/stylesheets\/singularitygs\/helpers\/_clearfix\.scss}line{font-family:\0000355}}
+  .comment__content:after, .field--type-taxonomy-term-reference .field__items:after, .pager:after, .site-branding:after {
+    clear: both; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.tcdc_omega\/gems\/toolkit-1\.3\.8\/stylesheets\/toolkit\/_clearfix\.scss}line{font-family:\0000381}}
+.comment__content, .field--type-taxonomy-term-reference .field__items, .pager, .site-branding {
+  /* for IE 6/7 */
+  *zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).style.cssText="clear:both;font:0/0 serif");
+  /* non-JS fallback */
+  *zoom: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.tcdc_omega\/gems\/toolkit-1\.3\.8\/stylesheets\/toolkit\/_clearfix\.scss}line{font-family:\0000348}}
+  .comment__content:before, .field--type-taxonomy-term-reference .field__items:before, .pager:before, .site-branding:before, .comment__content:after, .field--type-taxonomy-term-reference .field__items:after, .pager:after, .site-branding:after {
+    content: ".";
+    display: block;
+    height: 0;
+    overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.tcdc_omega\/gems\/toolkit-1\.3\.8\/stylesheets\/toolkit\/_clearfix\.scss}line{font-family:\0000355}}
+  .comment__content:after, .field--type-taxonomy-term-reference .field__items:after, .pager:after, .site-branding:after {
+    clear: both; }
+
+/*set smaller to avoid huge gaps*/
+/**
+ * $ARROW
+ */
+/*Views Mixins*/
+/*Placeholder selections
+--------------------*/
+/**
+ * $HLIST
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/abstractions\/_mixins\.scss}line{font-family:\00003132}}
+.block--block-2, .breadcrumb, .block--menu-menu-secondary {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  /* for IE 6/7 */
+  *zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).style.cssText="clear:both;font:0/0 serif");
+  /* non-JS fallback */
+  *zoom: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.tcdc_omega\/gems\/toolkit-1\.3\.8\/stylesheets\/toolkit\/_clearfix\.scss}line{font-family:\0000348}}
+  .block--block-2:before, .breadcrumb:before, .block--menu-menu-secondary:before, .block--block-2:after, .breadcrumb:after, .block--menu-menu-secondary:after {
+    content: ".";
+    display: block;
+    height: 0;
+    overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.tcdc_omega\/gems\/toolkit-1\.3\.8\/stylesheets\/toolkit\/_clearfix\.scss}line{font-family:\0000355}}
+  .block--block-2:after, .breadcrumb:after, .block--menu-menu-secondary:after {
+    clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.tcdc_omega\/gems\/compass-0\.12\.6\/frameworks\/compass\/stylesheets\/compass\/typography\/lists\/_horizontal-list\.scss}line{font-family:\0000360}}
+  .block--block-2 li, .breadcrumb li, .block--menu-menu-secondary li {
+    list-style-image: none;
+    list-style-type: none;
+    margin-left: 0;
+    white-space: nowrap;
+    display: inline;
+    float: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/abstractions\/_mixins\.scss}line{font-family:\00003134}}
+  .block--block-2 ol, .breadcrumb ol, .block--menu-menu-secondary ol, .block--block-2 ul, .breadcrumb ul, .block--menu-menu-secondary ul {
+    padding-left: 0px; }
+
+/**
+ * $ISLAND
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/abstractions\/_mixins\.scss}line{font-family:\00003143}}
+.comment__content {
+  display: block;
+  margin-bottom: 0.375em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/abstractions\/_mixins\.scss}line{font-family:\00003149}}
+  .comment__content > :last-child, .comment__content > :last-child {
+    margin-bottom: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/abstractions\/_mixins\.scss}line{font-family:\00003154}}
+.comment__content {
+  padding: 18px 1em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_media\.scss}line{font-family:\000031}}
+img, media {
+  max-width: 100%;
+  height: auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_media\.scss}line{font-family:\000036}}
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 25px;
+  height: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_media\.scss}line{font-family:\0000313}}
+.videoWrapper object,
+.videoWrapper embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+/*Base styles for links, backgrounds, and other misc*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_style\.scss}line{font-family:\000034}}
+::-moz-selection {
+  background: lime;
+  color: #000; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_style\.scss}line{font-family:\000035}}
+::selection {
+  background: lime;
+  color: #000; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.tcdc_omega\/gems\/singularitygs-1\.1\.2\/stylesheets\/singularitygs\/helpers\/_background-grid\.scss}line{font-family:\00003117}}
+html [data-development-grid="show"] {
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(210, 105, 30, 0.5)), color-stop(21.05263%, rgba(210, 105, 30, 0.5)), color-stop(21.05263%, rgba(210, 105, 30, 0.25)), color-stop(26.31579%, rgba(210, 105, 30, 0.25)), color-stop(26.31579%, rgba(210, 105, 30, 0.5)), color-stop(47.36842%, rgba(210, 105, 30, 0.5)), color-stop(47.36842%, rgba(210, 105, 30, 0.25)), color-stop(52.63158%, rgba(210, 105, 30, 0.25)), color-stop(52.63158%, rgba(210, 105, 30, 0.5)), color-stop(73.68421%, rgba(210, 105, 30, 0.5)), color-stop(73.68421%, rgba(210, 105, 30, 0.25)), color-stop(78.94737%, rgba(210, 105, 30, 0.25)), color-stop(78.94737%, rgba(210, 105, 30, 0.5)), color-stop(100%, rgba(210, 105, 30, 0.5)));
+  background-image: -webkit-linear-gradient(left, rgba(210, 105, 30, 0.5), rgba(210, 105, 30, 0.5) 21.05263%, rgba(210, 105, 30, 0.25) 21.05263%, rgba(210, 105, 30, 0.25) 26.31579%, rgba(210, 105, 30, 0.5) 26.31579%, rgba(210, 105, 30, 0.5) 47.36842%, rgba(210, 105, 30, 0.25) 47.36842%, rgba(210, 105, 30, 0.25) 52.63158%, rgba(210, 105, 30, 0.5) 52.63158%, rgba(210, 105, 30, 0.5) 73.68421%, rgba(210, 105, 30, 0.25) 73.68421%, rgba(210, 105, 30, 0.25) 78.94737%, rgba(210, 105, 30, 0.5) 78.94737%, rgba(210, 105, 30, 0.5) 100%);
+  background-image: -moz-linear-gradient(left, rgba(210, 105, 30, 0.5), rgba(210, 105, 30, 0.5) 21.05263%, rgba(210, 105, 30, 0.25) 21.05263%, rgba(210, 105, 30, 0.25) 26.31579%, rgba(210, 105, 30, 0.5) 26.31579%, rgba(210, 105, 30, 0.5) 47.36842%, rgba(210, 105, 30, 0.25) 47.36842%, rgba(210, 105, 30, 0.25) 52.63158%, rgba(210, 105, 30, 0.5) 52.63158%, rgba(210, 105, 30, 0.5) 73.68421%, rgba(210, 105, 30, 0.25) 73.68421%, rgba(210, 105, 30, 0.25) 78.94737%, rgba(210, 105, 30, 0.5) 78.94737%, rgba(210, 105, 30, 0.5) 100%);
+  background-image: -o-linear-gradient(left, rgba(210, 105, 30, 0.5), rgba(210, 105, 30, 0.5) 21.05263%, rgba(210, 105, 30, 0.25) 21.05263%, rgba(210, 105, 30, 0.25) 26.31579%, rgba(210, 105, 30, 0.5) 26.31579%, rgba(210, 105, 30, 0.5) 47.36842%, rgba(210, 105, 30, 0.25) 47.36842%, rgba(210, 105, 30, 0.25) 52.63158%, rgba(210, 105, 30, 0.5) 52.63158%, rgba(210, 105, 30, 0.5) 73.68421%, rgba(210, 105, 30, 0.25) 73.68421%, rgba(210, 105, 30, 0.25) 78.94737%, rgba(210, 105, 30, 0.5) 78.94737%, rgba(210, 105, 30, 0.5) 100%);
+  background-image: linear-gradient(left, rgba(210, 105, 30, 0.5), rgba(210, 105, 30, 0.5) 21.05263%, rgba(210, 105, 30, 0.25) 21.05263%, rgba(210, 105, 30, 0.25) 26.31579%, rgba(210, 105, 30, 0.5) 26.31579%, rgba(210, 105, 30, 0.5) 47.36842%, rgba(210, 105, 30, 0.25) 47.36842%, rgba(210, 105, 30, 0.25) 52.63158%, rgba(210, 105, 30, 0.5) 52.63158%, rgba(210, 105, 30, 0.5) 73.68421%, rgba(210, 105, 30, 0.25) 73.68421%, rgba(210, 105, 30, 0.25) 78.94737%, rgba(210, 105, 30, 0.5) 78.94737%, rgba(210, 105, 30, 0.5) 100%); }
+
+/*Background Colors*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_style\.scss}line{font-family:\0000312}}
+body {
+  background: #faf7f0;
+  color: #404040; }
+
+/**
+ * $LINKS
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_style\.scss}line{font-family:\0000322}}
+a:link, a:visited {
+  color: #3281b8;
+  text-decoration: none;
+  outline: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_style\.scss}line{font-family:\0000328}}
+a:hover, a:focus {
+  text-decoration: underline;
+  color: #faa634; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_style\.scss}line{font-family:\0000333}}
+a.active, a:active {
+  color: #f59006; }
+
+/**
+ *MISC
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_style\.scss}line{font-family:\0000343}}
+a.toggler {
+  color: #cccccc; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_style\.scss}line{font-family:\0000346}}
+  a.toggler:hover {
+    color: #222222;
+    cursor: hand; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_style\.scss}line{font-family:\0000351}}
+.toggler:after {
+  content: " +"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_style\.scss}line{font-family:\0000355}}
+.toggler.open {
+  color: #cccccc; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_style\.scss}line{font-family:\0000358}}
+.toggler.open.active:after {
+  content: " -"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_style\.scss}line{font-family:\0000363}}
+.floatright {
+  float: right;
+  margin: 0 0 1em 1em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_style\.scss}line{font-family:\0000369}}
+.floatleft {
+  float: left;
+  margin: 0 1em 1em; }
+
+/* Sticky Footer ------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_style\.scss}line{font-family:\0000379}}
+html, body {
+  height: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_style\.scss}line{font-family:\0000383}}
+.l-page {
+  height: auto;
+  min-height: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_style\.scss}line{font-family:\0000385}}
+.l-main {
+  /* must be same height as the footer */
+  padding-bottom: 170px !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_style\.scss}line{font-family:\0000390}}
+.l-footer {
+  margin-top: -180px;
+  /* negative value of footer height */
+  height: 180px;
+  width: 100%;
+  background: #a1cd46;
+  float: left;
+  color: #ccc;
+  position: relative;
+  z-index: 3;
+  max-width: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_style\.scss}line{font-family:\00003101}}
+  .l-footer .footer-wrap {
+    background: #ccc; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_style\.scss}line{font-family:\00003105}}
+    .l-footer .footer-wrap .l-region-footer {
+      max-width: 1200px;
+      margin: 10px auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_style\.scss}line{font-family:\00003111}}
+  .l-footer .l-region--bottom {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 30px 0 0; }
+
+/**
+ * $TABLES
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_tables\.scss}line{font-family:\000034}}
+table {
+  width: 100%;
+  margin-bottom: 18px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_tables\.scss}line{font-family:\000039}}
+th {
+  padding: 0.5em 1em;
+  background: #4e9acf;
+  color: #faf7f0;
+  border: 1px solid #cccccc;
+  border-bottom: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_tables\.scss}line{font-family:\0000317}}
+  th a,
+  th a.active {
+    color: #faf7f0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_tables\.scss}line{font-family:\0000320}}
+    th a img,
+    th a.active img {
+      margin: 2px 3px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_tables\.scss}line{font-family:\0000325}}
+td {
+  padding: 0.5em 1em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_tables\.scss}line{font-family:\0000330}}
+  td a:hover {
+    color: #b3b3b3; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_tables\.scss}line{font-family:\0000336}}
+tr.odd {
+  background: #e6e6e6; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_tables\.scss}line{font-family:\0000339}}
+tr.even {
+  background: #cccccc; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_tables\.scss}line{font-family:\0000343}}
+caption {
+  font-weight: normal;
+  text-align: left; }
+
+/* Mobile */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_tables\.scss}line{font-family:\0000355}}
+table.responsive {
+  margin-bottom: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_tables\.scss}line{font-family:\0000357}}
+.pinned {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #fff;
+  width: 35%;
+  overflow: hidden;
+  overflow-x: scroll;
+  border-right: 1px solid #ccc;
+  border-left: 1px solid #ccc; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_tables\.scss}line{font-family:\0000358}}
+.pinned table {
+  border-right: none;
+  border-left: none;
+  width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_tables\.scss}line{font-family:\0000359}}
+.pinned table th, .pinned table td {
+  white-space: nowrap; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_tables\.scss}line{font-family:\0000360}}
+.pinned td:last-child {
+  border-bottom: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_tables\.scss}line{font-family:\0000362}}
+div.table-wrapper {
+  position: relative;
+  margin-bottom: 20px;
+  overflow: hidden;
+  border-right: 1px solid #ccc; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_tables\.scss}line{font-family:\0000363}}
+div.table-wrapper div.scrollable {
+  margin-left: 35%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_tables\.scss}line{font-family:\0000364}}
+div.table-wrapper div.scrollable {
+  overflow: scroll;
+  overflow-y: hidden; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_tables\.scss}line{font-family:\0000366}}
+table.responsive td, table.responsive th {
+  position: relative;
+  white-space: nowrap;
+  overflow: hidden; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_tables\.scss}line{font-family:\0000367}}
+table.responsive th:first-child, table.responsive td:first-child, table.responsive td:first-child, table.responsive.pinned td {
+  display: none; }
+
+/*WEB FONTS
+-------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.tcdc_omega\/gems\/compass-0\.12\.6\/frameworks\/compass\/stylesheets\/compass\/typography\/_vertical_rhythm\.scss}line{font-family:\0000361}}
+* html {
+  font-size: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.tcdc_omega\/gems\/compass-0\.12\.6\/frameworks\/compass\/stylesheets\/compass\/typography\/_vertical_rhythm\.scss}line{font-family:\0000364}}
+html {
+  font-size: 16px;
+  line-height: 0.375em; }
+
+/**
+ * $BASE-TYPOGRAPHY
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_typography\.scss}line{font-family:\000039}}
+html {
+  font-kerning: normal;
+  font-synthesis: none;
+  font-family: "Open Sans", Georgia, Times New Roman, serif;
+  line-height: 1.5em; }
+  @media screen and (max-width: 769px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_typography\.scss}line{font-family:\000039}}
+    html {
+      -webkit-text-size-adjust: none; } }
+
+/*DEFAULT TEXT SHADOWS*/
+/*FONT ICONS
+*/
+@font-face {
+  font-family: "tcdrupal";
+  src: url("../fonts/tcdrupal.eot");
+  src: url("../fonts/tcdrupal.eot?#iefix") format("embedded-opentype"), url("../fonts/tcdrupal.woff") format("woff"), url("../fonts/tcdrupal.ttf") format("truetype"), url("../fonts/tcdrupal.svg#tcdrupal") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_typography\.scss}line{font-family:\0000342}}
+[data-icon]:before {
+  font-family: "tcdrupal" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_typography\.scss}line{font-family:\0000356}}
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "tcdrupal" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_typography\.scss}line{font-family:\0000368}}
+.icon-menu:before {
+  content: "a"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_typography\.scss}line{font-family:\0000371}}
+.icon-comment:before {
+  content: "b"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_typography\.scss}line{font-family:\0000374}}
+.icon-star:before {
+  content: "c"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_typography\.scss}line{font-family:\0000377}}
+.icon-user:before {
+  content: "d"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_typography\.scss}line{font-family:\0000380}}
+.icon-search:before {
+  content: "e"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_typography\.scss}line{font-family:\0000383}}
+.icon-twitter:before {
+  content: "f"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_typography\.scss}line{font-family:\0000386}}
+.icon-googleplus:before {
+  content: "g"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_typography\.scss}line{font-family:\0000389}}
+.icon-drop:before {
+  content: "h"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_typography\.scss}line{font-family:\0000392}}
+.icon-searchtwo:before {
+  content: "i"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_typography\.scss}line{font-family:\0000395}}
+.icon-flickr:before {
+  content: "j"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_typography\.scss}line{font-family:\0000398}}
+.icon-youtube:before {
+  content: "l"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_typography\.scss}line{font-family:\00003101}}
+.icon-facebook:before {
+  content: "m"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_typography\.scss}line{font-family:\00003104}}
+.icon-cancel:before {
+  content: "n"; }
+
+/**
+ * $HEADINGS
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_typography\.scss}line{font-family:\00003112}}
+h1, h2, h3 {
+  -moz-font-feature-settings: "liga=1, dlig=1";
+  -ms-font-feature-settings: "liga", "dlig";
+  -webkit-font-feature-settings: "liga", "dlig";
+  -o-font-feature-settings: "liga", "dlig";
+  font-feature-settings: "liga", "dlig";
+  font-family: "Rokkitt", Rockwell, Helvetica, Arial, sans-serif;
+  line-height: 1em;
+  letter-spacing: -1px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_typography\.scss}line{font-family:\00003123}}
+h1, .alpha {
+  font-weight: 700;
+  font-size: 2.375em;
+  line-height: 1.10526em;
+  margin: 0.15789em 0 0.15789em;
+  line-height: 1em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_typography\.scss}line{font-family:\00003130}}
+h2, .beta {
+  font-weight: 700;
+  font-size: 1.875em;
+  line-height: 1.2em;
+  margin: 0.2em 0 0.2em 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_typography\.scss}line{font-family:\00003137}}
+  .block h2, .block .beta {
+    font-size: 1.3125em;
+    line-height: 1.42857em;
+    margin-top: 1.5em;
+    line-height: .9em;
+    padding: 10px 20px;
+    background: #deeebe; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_typography\.scss}line{font-family:\00003148}}
+h2.site-branding__name {
+  font-size: 1.4375em;
+  line-height: 1.30435em;
+  margin: 0 0 0.375em 0;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: .9em;
+  padding: 0;
+  background: none;
+  font-size: 2.375em;
+  line-height: 1.10526em;
+  font-size: 3.75em;
+  line-height: 1.1em;
+  margin: -10px 0 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_typography\.scss}line{font-family:\00003159}}
+  h2.site-branding__name .tc {
+    color: #4e9acf; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_typography\.scss}line{font-family:\00003163}}
+  h2.site-branding__name .dc {
+    color: #a1cd46; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_typography\.scss}line{font-family:\00003178}}
+h3, .gamma {
+  font-weight: 400;
+  font-size: 1.3125em;
+  line-height: 1.42857em;
+  margin: 0.85714em 0;
+  border-bottom-style: solid;
+  border-bottom-width: 0.0625em;
+  padding-bottom: 0.3125em;
+  border-color: #cccccc;
+  color: #104879;
+  line-height: 1em;
+  font-family: "Open Sans", Georgia, Times New Roman, serif; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_typography\.scss}line{font-family:\00003191}}
+h4, .delta {
+  margin: 0.3em 0;
+  font-size: 1.25em;
+  line-height: 1.2em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_typography\.scss}line{font-family:\00003196}}
+h5 {
+  font-weight: 600;
+  margin: 0.33333em 0;
+  font-size: 1.125em;
+  line-height: 1.33333em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_typography\.scss}line{font-family:\00003203}}
+h6 {
+  font-weight: 600;
+  font-size: 1em;
+  line-height: 1.5em;
+  margin: 0.375em 0; }
+
+/**
+ * $PARAGRAPHS
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_typography\.scss}line{font-family:\00003213}}
+p, blockquote {
+  margin: 0 0 0.375em 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_typography\.scss}line{font-family:\00003217}}
+p ~ img {
+  float: left;
+  margin-right: 1em; }
+
+/**
+ * $QUOTES
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_typography\.scss}line{font-family:\00003225}}
+blockquote {
+  margin-top: 0em;
+  padding-top: 0.375em;
+  padding-bottom: 0.375em;
+  margin-bottom: 0.375em;
+  padding: 0 1.5em;
+  border-style: solid;
+  border-width: 0.0625em;
+  padding: 0.3125em;
+  border-left-style: solid;
+  border-left-width: 0.625em;
+  padding-left: -0.25em;
+  font-style: italic;
+  color: #064771; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_typography\.scss}line{font-family:\00003235}}
+  blockquote p {
+    margin: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_typography\.scss}line{font-family:\00003240}}
+q {
+  font-style: italic; }
+
+/**
+ * $MARKS
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/base\/_typography\.scss}line{font-family:\00003248}}
+mark,
+.marker {
+  padding: 0.1em 0.5em;
+  background: #52b1ea;
+  color: #fff;
+  font-size: 12px;
+  font-size: 0.75rem;
+  text-transform: capitalize;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px; }
+
+/**********************************************************
+ *                    PAGE SPECIFIC
+ **********************************************************/
+/*BLOCKS*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_blocks\.scss}line{font-family:\000034}}
+.block--block-1 {
+  font-family: "Rokkitt", Rockwell, Helvetica, Arial, sans-serif;
+  width: 48.27586%;
+  clear: right;
+  float: left;
+  margin-left: 0;
+  margin-right: 3.44828%;
+  text-align: left; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_blocks\.scss}line{font-family:\0000317}}
+.block--block-3 {
+  position: absolute;
+  bottom: 130px;
+  max-width: 300px;
+  overflow: hidden;
+  max-width: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_blocks\.scss}line{font-family:\0000332}}
+.block--mailchimp-lists .block__content {
+  padding: 0 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_blocks\.scss}line{font-family:\0000340}}
+.block--tcdrupalblocks-camp-info h2 {
+  margin-top: 0;
+  background: #faa634; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_blocks\.scss}line{font-family:\0000347}}
+.block--block-2 {
+  width: 48.27586%;
+  clear: right;
+  float: right;
+  margin-right: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_blocks\.scss}line{font-family:\0000354}}
+  .block--block-2 ul {
+    float: right; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_blocks\.scss}line{font-family:\0000359}}
+  .block--block-2 li a {
+    font-size: 14px;
+    font-size: 0.875rem;
+    margin-right: 10px;
+    text-indent: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_blocks\.scss}line{font-family:\0000364}}
+    .block--block-2 li a .screen-reader-text {
+      display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_blocks\.scss}line{font-family:\0000368}}
+    .block--block-2 li a:hover {
+      text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_blocks\.scss}line{font-family:\0000370}}
+      .block--block-2 li a:hover .screen-reader-text {
+        display: inline; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_blocks\.scss}line{font-family:\0000380}}
+  .block--block-2 li a:before {
+    font-size: 20px;
+    font-size: 1.25rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_blocks\.scss}line{font-family:\0000383}}
+    .block--block-2 li a:before:hover {
+      margin-right: 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_blocks\.scss}line{font-family:\0000388}}
+  .block--block-2 li.blogs a:before {
+    font-family: "tcdrupal" !important;
+    content: attr(data-icon);
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "k"; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_blocks\.scss}line{font-family:\0000391}}
+  .block--block-2 li.facebook a:before {
+    font-family: "tcdrupal" !important;
+    content: attr(data-icon);
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "c"; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_blocks\.scss}line{font-family:\0000395}}
+  .block--block-2 li.twitter a:before {
+    font-family: "tcdrupal" !important;
+    content: attr(data-icon);
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "d"; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_blocks\.scss}line{font-family:\0000399}}
+  .block--block-2 li.newsletter a:before {
+    font-family: "tcdrupal" !important;
+    content: attr(data-icon);
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "l"; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_blocks\.scss}line{font-family:\00003103}}
+  .block--block-2 li.rss a:before {
+    font-family: "tcdrupal" !important;
+    content: attr(data-icon);
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "e"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_blocks\.scss}line{font-family:\00003112}}
+.menu-block-wrapper ul.menu {
+  padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_blocks\.scss}line{font-family:\00003115}}
+  .menu-block-wrapper ul.menu li.leaf {
+    list-style-image: none;
+    list-style: none;
+    margin-bottom: 1em;
+    line-height: 1.2; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_blocks\.scss}line{font-family:\00003126}}
+.register-block {
+  background: #faa634;
+  font-family: "Rokkitt", Rockwell, Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  position: absolute;
+  top: 75px;
+  right: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_blocks\.scss}line{font-family:\00003139}}
+  .register-block a {
+    color: #faf7f0;
+    display: block;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 10px;
+    margin: 0.03em 0;
+    font-size: 22px;
+    font-size: 1.375rem;
+    text-align: center;
+    padding: 20px 60px;
+    font-size: 28px;
+    font-size: 1.75rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_blocks\.scss}line{font-family:\00003153}}
+    .register-block a span {
+      color: #000;
+      display: block;
+      text-transform: none;
+      font-size: 20px;
+      font-size: 1.25rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_blocks\.scss}line{font-family:\00003161}}
+  .register-block .pointer {
+    border-color: transparent #faa634 transparent transparent;
+    border-style: solid;
+    border-width: 15px 35px 15px 0;
+    height: 0;
+    left: -35px;
+    position: absolute;
+    top: 30px;
+    width: 0;
+    float: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_blocks\.scss}line{font-family:\00003173}}
+  .register-block .early-bird {
+    font-size: 14px;
+    font-size: 0.875rem;
+    margin: 0;
+    position: relative;
+    bottom: -25px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_blocks\.scss}line{font-family:\00003189}}
+.block--views-sponsors-block-1 h2 {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #eeeeee), color-stop(100%, #dddddd));
+  background-image: -webkit-linear-gradient(#eeeeee, #dddddd);
+  background-image: -moz-linear-gradient(#eeeeee, #dddddd);
+  background-image: -o-linear-gradient(#eeeeee, #dddddd);
+  background-image: linear-gradient(#eeeeee, #dddddd); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_blocks\.scss}line{font-family:\00003195}}
+.block--views-sponsors-block-1 .view-display-id-attachment_1 h2 {
+  background: gold; }
+
+/**
+ * $BREADCRUMBS
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_navigation\.scss}line{font-family:\000034}}
+.breadcrumb {
+  max-width: 1200px;
+  margin: 0 auto 2px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_navigation\.scss}line{font-family:\0000310}}
+  .breadcrumb li {
+    padding-right: 0.4em;
+    color: #cccccc;
+    line-height: 1.3; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_navigation\.scss}line{font-family:\0000316}}
+    .breadcrumb li:after {
+      content: "&raquo;";
+      padding-left: 0.4em;
+      vertical-align: baseline; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_navigation\.scss}line{font-family:\0000321}}
+    .breadcrumb li:last-child:after {
+      content: ""; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_navigation\.scss}line{font-family:\0000326}}
+  .breadcrumb a {
+    text-decoration: none; }
+
+/*MAIN MENU, Superfish Styles 
+----------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_navigation\.scss}line{font-family:\0000334}}
+.block--superfish-1 {
+  margin: .5em;
+  position: absolute;
+  top: -30px;
+  left: 0px;
+  z-index: 500;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  margin: 0; }
+
+/*TOP LEVEL */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_navigation\.scss}line{font-family:\0000351}}
+.sf-menu.sf-horizontal {
+  /* for IE 6/7 */
+  *zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).style.cssText="clear:both;font:0/0 serif");
+  /* non-JS fallback */
+  *zoom: 1;
+  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.tcdc_omega\/gems\/toolkit-1\.3\.8\/stylesheets\/toolkit\/_clearfix\.scss}line{font-family:\0000348}}
+  .sf-menu.sf-horizontal:before, .sf-menu.sf-horizontal:after {
+    content: ".";
+    display: block;
+    height: 0;
+    overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.tcdc_omega\/gems\/toolkit-1\.3\.8\/stylesheets\/toolkit\/_clearfix\.scss}line{font-family:\0000355}}
+  .sf-menu.sf-horizontal:after {
+    clear: both; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_navigation\.scss}line{font-family:\0000356}}
+.sf-menu.sf-horizontal li {
+  font-size: 24px;
+  font-size: 1.5rem;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  font-family: "Rokkitt", Rockwell, Helvetica, Arial, sans-serif;
+  float: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_navigation\.scss}line{font-family:\0000362}}
+  .sf-menu.sf-horizontal li .sf-sub-indicator {
+    display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_navigation\.scss}line{font-family:\0000366}}
+  .sf-menu.sf-horizontal li a {
+    color: #000;
+    padding: 0 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_navigation\.scss}line{font-family:\0000370}}
+    .sf-menu.sf-horizontal li a:hover, .sf-menu.sf-horizontal li a.active, .sf-menu.sf-horizontal li a.active-trail {
+      color: #688825;
+      text-decoration: underline; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_navigation\.scss}line{font-family:\0000377}}
+.sf-menu.sf-horizontal li.last a {
+  padding-right: 0px !important; }
+
+/*DROPDOWNS, FIRST SET */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_navigation\.scss}line{font-family:\0000384}}
+.sf-menu.sf-horizontal li:hover ul,
+.sf-menu.sf-horizontal li.sfHover ul {
+  left: 0;
+  top: 1.4em;
+  border-radius: 0px 0px 5px 5px;
+  padding: 0px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_navigation\.scss}line{font-family:\0000391}}
+.sf-menu.sf-horizontal li li {
+  height: auto;
+  padding: 0px;
+  font-size: 16px;
+  font-size: 1rem;
+  color: #dddddd;
+  text-align: left;
+  display: block;
+  float: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_navigation\.scss}line{font-family:\00003100}}
+  .sf-menu.sf-horizontal li li a {
+    color: #104879;
+    text-transform: none;
+    background: #a1cd46;
+    padding: 0.4em;
+    /*reset padding*/
+    width: auto;
+    border-bottom: 1px dotted #222222; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_navigation\.scss}line{font-family:\00003108}}
+    .sf-menu.sf-horizontal li li a.active, .sf-menu.sf-horizontal li li a:active {
+      background: #4e9acf; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_navigation\.scss}line{font-family:\00003111}}
+    .sf-menu.sf-horizontal li li a:hover {
+      background: #b5d86e;
+      text-decoration: underline;
+      color: #4e9acf; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_navigation\.scss}line{font-family:\00003118}}
+  .sf-menu.sf-horizontal li li .sf-sub-indicator {
+    display: block; }
+
+/*SECOND LEVEL */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_navigation\.scss}line{font-family:\00003124}}
+.sf-menu.sf-horizontal li li li a {
+  text-transform: none; }
+
+/*Main Menu, Accordion Styles */
+/*TOGGLE */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_navigation\.scss}line{font-family:\00003131}}
+.block--superfish-1 .sf-accordion-toggle {
+  left: 0px;
+  position: absolute;
+  top: -36px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_navigation\.scss}line{font-family:\00003136}}
+  .block--superfish-1 .sf-accordion-toggle a {
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 24px;
+    left: 0px;
+    color: #faf7f0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_navigation\.scss}line{font-family:\00003145}}
+    .block--superfish-1 .sf-accordion-toggle a:before {
+      font-family: "tcdrupal" !important;
+      content: attr(data-icon);
+      font-style: normal !important;
+      font-weight: normal !important;
+      font-variant: normal !important;
+      text-transform: none !important;
+      speak: none;
+      line-height: 1;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      content: "a";
+      font-size: 28px;
+      font-size: 1.75rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_navigation\.scss}line{font-family:\00003149}}
+    .block--superfish-1 .sf-accordion-toggle a.sf-expanded:before {
+      font-family: "tcdrupal" !important;
+      content: attr(data-icon);
+      font-style: normal !important;
+      font-weight: normal !important;
+      font-variant: normal !important;
+      text-transform: none !important;
+      speak: none;
+      line-height: 1;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      content: "n"; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_navigation\.scss}line{font-family:\00003154}}
+  .block--superfish-1 .sf-accordion-toggle span {
+    position: absolute;
+    left: 35px;
+    top: 0px;
+    display: none;
+    /*hide menu text*/ }
+
+/*EXPANDED MENU*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_navigation\.scss}line{font-family:\00003165}}
+.block--superfish-1 .sf-accordion.sf-menu {
+  margin-top: 30px;
+  background: #104879;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_navigation\.scss}line{font-family:\00003172}}
+.block--superfish-1 .sf-accordion.sf-menu li a {
+  border-bottom: 1px dotted #dddddd;
+  color: white;
+  padding: 0.75em 1em;
+  font-size: 14px;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  font-weight: bold; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_navigation\.scss}line{font-family:\00003180}}
+  .block--superfish-1 .sf-accordion.sf-menu li a:hover {
+    background: #4e9acf;
+    color: white; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_navigation\.scss}line{font-family:\00003186}}
+.block--superfish-1 .sf-accordion.sf-menu li.sf-expanded {
+  border: 1px solid #ccc;
+  border-bottom: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_navigation\.scss}line{font-family:\00003190}}
+  .block--superfish-1 .sf-accordion.sf-menu li.sf-expanded a {
+    border: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_navigation\.scss}line{font-family:\00003194}}
+  .block--superfish-1 .sf-accordion.sf-menu li.sf-expanded ul {
+    margin: 1em 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_navigation\.scss}line{font-family:\00003198}}
+  .block--superfish-1 .sf-accordion.sf-menu li.sf-expanded ul li a {
+    border: none;
+    text-transform: none;
+    margin: 0;
+    padding: 0.35em 0.5em .35em 1.5em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_navigation\.scss}line{font-family:\00003211}}
+.block--superfish-1 .sf-accordion.sf-menu li a li a {
+  padding-left: 10px;
+  text-transform: none;
+  border: none;
+  background: #cccccc; }
+
+/*SECONDARY MENU
+--------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_navigation\.scss}line{font-family:\00003222}}
+.block--menu-menu-secondary {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 980px;
+  padding: 0 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_navigation\.scss}line{font-family:\00003227}}
+  .block--menu-menu-secondary ul.menu {
+    padding-left: 0;
+    font-family: "Rokkitt", Rockwell, Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    float: right;
+    text-align: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_navigation\.scss}line{font-family:\00003239}}
+  .block--menu-menu-secondary ul.menu > li.leaf {
+    list-style-image: none;
+    padding-right: 10px;
+    float: none;
+    /*no float til wider screen*/
+    float: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_navigation\.scss}line{font-family:\00003248}}
+    .block--menu-menu-secondary ul.menu > li.leaf.last {
+      padding-right: 0px; }
+
+/*USER MENU
+------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_navigation\.scss}line{font-family:\00003267}}
+.block--system-user-menu {
+  margin: 10px auto;
+  width: 100%;
+  float: left;
+  /* for IE 6/7 */
+  *zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).style.cssText="clear:both;font:0/0 serif");
+  /* non-JS fallback */
+  *zoom: 1;
+  float: right;
+  margin-right: 50px;
+  width: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.tcdc_omega\/gems\/toolkit-1\.3\.8\/stylesheets\/toolkit\/_clearfix\.scss}line{font-family:\0000348}}
+  .block--system-user-menu:before, .block--system-user-menu:after {
+    content: ".";
+    display: block;
+    height: 0;
+    overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.tcdc_omega\/gems\/toolkit-1\.3\.8\/stylesheets\/toolkit\/_clearfix\.scss}line{font-family:\0000355}}
+  .block--system-user-menu:after {
+    clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_navigation\.scss}line{font-family:\00003281}}
+  .block--system-user-menu ul.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_navigation\.scss}line{font-family:\00003288}}
+  .block--system-user-menu ul.menu li {
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    zoom: 1;
+    *display: inline;
+    margin-right: 2px;
+    font-size: 13px;
+    font-size: 0.8125rem;
+    font-size: 15px;
+    font-size: 0.9375rem;
+    margin-right: 10px;
+    font-size: 16px;
+    font-size: 1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_navigation\.scss}line{font-family:\00003302}}
+    .block--system-user-menu ul.menu li a {
+      color: #faf7f0;
+      position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_navigation\.scss}line{font-family:\00003306}}
+      .block--system-user-menu ul.menu li a:hover, .block--system-user-menu ul.menu li a.active {
+        color: #d9e9ef;
+        text-decoration: underline; }
+
+/*MENU block
+---------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_navigation\.scss}line{font-family:\00003323}}
+.block.block--menu-block .menu {
+  padding: 0 20px; }
+
+/**
+ * $NODE
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_node\.scss}line{font-family:\000034}}
+.node--teaser {
+  margin-bottom: 18px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_node\.scss}line{font-family:\000038}}
+.node__links {
+  margin-bottom: 18px; }
+
+/*BASIC PAGE nodes
+--------------------------- */
+/*SPECIFIC PAGE nodes
+-------------------------- */
+/**
+ * DEFAULT VIEWS CLASSES
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_views\.scss}line{font-family:\000035}}
+.view-content ul {
+  padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_views\.scss}line{font-family:\000039}}
+p.views-date {
+  margin: .2em 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_views\.scss}line{font-family:\0000313}}
+h3.views-title {
+  margin: .6em 0 .2em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_views\.scss}line{font-family:\0000324}}
+.content-wrap {
+  overflow: hidden; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_views\.scss}line{font-family:\0000328}}
+.view-content .item-list li {
+  list-style: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_views\.scss}line{font-family:\0000332}}
+.views-list ul {
+  margin: 0 0 0.375em 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_views\.scss}line{font-family:\0000336}}
+.views-field-edit-node a {
+  color: #ccc !important; }
+
+/*Buttons*/
+/**
+ * CUSTOM VIEWS CLASSES
+ */
+/*RECENT NEWS
+-------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_views\.scss}line{font-family:\0000362}}
+.view-recent-news img {
+  border: 1px solid #dddddd;
+  padding: 2px;
+  -webkit-box-shadow: #cccccc 1px 1px 3px;
+  -moz-box-shadow: #cccccc 1px 1px 3px;
+  box-shadow: #cccccc 1px 1px 3px;
+  float: left;
+  margin: 0 1em 1em 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_views\.scss}line{font-family:\0000369}}
+.view-recent-news.view-display-id-panel_pane_3 .item-list.all-news li {
+  /* for IE 6/7 */
+  *zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).style.cssText="clear:both;font:0/0 serif");
+  /* non-JS fallback */
+  *zoom: 1;
+  width: 46.66667%;
+  clear: right;
+  float: left;
+  margin-left: 1.66667%;
+  margin-right: 1.66667%;
+  width: 31.66667%;
+  clear: right;
+  float: left;
+  margin-left: 0.83333%;
+  margin-right: 0.83333%;
+  float: none !important;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  margin-bottom: 1.125em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.tcdc_omega\/gems\/toolkit-1\.3\.8\/stylesheets\/toolkit\/_clearfix\.scss}line{font-family:\0000348}}
+  .view-recent-news.view-display-id-panel_pane_3 .item-list.all-news li:before, .view-recent-news.view-display-id-panel_pane_3 .item-list.all-news li:after {
+    content: ".";
+    display: block;
+    height: 0;
+    overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.tcdc_omega\/gems\/toolkit-1\.3\.8\/stylesheets\/toolkit\/_clearfix\.scss}line{font-family:\0000355}}
+  .view-recent-news.view-display-id-panel_pane_3 .item-list.all-news li:after {
+    clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/abstractions\/_mixins\.scss}line{font-family:\0000318}}
+  .view-recent-news.view-display-id-panel_pane_3 .item-list.all-news li:nth-child(2n+1) {
+    margin-left: 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/abstractions\/_mixins\.scss}line{font-family:\0000329}}
+  .view-recent-news.view-display-id-panel_pane_3 .item-list.all-news li:nth-child(2n+1) {
+    margin-left: 1.04167%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/abstractions\/_mixins\.scss}line{font-family:\0000332}}
+  .view-recent-news.view-display-id-panel_pane_3 .item-list.all-news li:nth-child(3n+1) {
+    margin-left: 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/abstractions\/_mixins\.scss}line{font-family:\0000335}}
+  .view-recent-news.view-display-id-panel_pane_3 .item-list.all-news li:nth-child(3n) {
+    margin-right: 0px; }
+
+/*WHO IS COMING
+-------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_views\.scss}line{font-family:\0000376}}
+.view-who-is-coming {
+  margin: 1em 0;
+  position: relative;
+  /* for IE 6/7 */
+  *zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).style.cssText="clear:both;font:0/0 serif");
+  /* non-JS fallback */
+  *zoom: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.tcdc_omega\/gems\/toolkit-1\.3\.8\/stylesheets\/toolkit\/_clearfix\.scss}line{font-family:\0000348}}
+  .view-who-is-coming:before, .view-who-is-coming:after {
+    content: ".";
+    display: block;
+    height: 0;
+    overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.tcdc_omega\/gems\/toolkit-1\.3\.8\/stylesheets\/toolkit\/_clearfix\.scss}line{font-family:\0000355}}
+  .view-who-is-coming:after {
+    clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_views\.scss}line{font-family:\0000382}}
+  .view-who-is-coming .item-list li {
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    zoom: 1;
+    *display: inline;
+    margin-right: 1px;
+    border: 1px dotted #cccccc;
+    height: 99px;
+    width: 99px;
+    margin-bottom: 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_views\.scss}line{font-family:\0000391}}
+    .view-who-is-coming .item-list li a {
+      display: block;
+      max-width: 95px;
+      overflow: hidden;
+      font-size: 13px;
+      font-size: 0.8125rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_views\.scss}line{font-family:\00003100}}
+  .view-who-is-coming .view-all {
+    position: absolute;
+    right: 20px;
+    top: -46px; }
+
+/*UPCOMING EVENTS
+-------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_views\.scss}line{font-family:\00003120}}
+.view-recent-events.view-display-id-panel_pane_3 .item-list.all-events li {
+  /* for IE 6/7 */
+  *zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).style.cssText="clear:both;font:0/0 serif");
+  /* non-JS fallback */
+  *zoom: 1;
+  width: 46.66667%;
+  clear: right;
+  float: left;
+  margin-left: 1.66667%;
+  margin-right: 1.66667%;
+  width: 31.66667%;
+  clear: right;
+  float: left;
+  margin-left: 0.83333%;
+  margin-right: 0.83333%;
+  float: none !important;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  margin-bottom: 1.125em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.tcdc_omega\/gems\/toolkit-1\.3\.8\/stylesheets\/toolkit\/_clearfix\.scss}line{font-family:\0000348}}
+  .view-recent-events.view-display-id-panel_pane_3 .item-list.all-events li:before, .view-recent-events.view-display-id-panel_pane_3 .item-list.all-events li:after {
+    content: ".";
+    display: block;
+    height: 0;
+    overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.tcdc_omega\/gems\/toolkit-1\.3\.8\/stylesheets\/toolkit\/_clearfix\.scss}line{font-family:\0000355}}
+  .view-recent-events.view-display-id-panel_pane_3 .item-list.all-events li:after {
+    clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/abstractions\/_mixins\.scss}line{font-family:\0000318}}
+  .view-recent-events.view-display-id-panel_pane_3 .item-list.all-events li:nth-child(2n+1) {
+    margin-left: 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/abstractions\/_mixins\.scss}line{font-family:\0000329}}
+  .view-recent-events.view-display-id-panel_pane_3 .item-list.all-events li:nth-child(2n+1) {
+    margin-left: 1.04167%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/abstractions\/_mixins\.scss}line{font-family:\0000332}}
+  .view-recent-events.view-display-id-panel_pane_3 .item-list.all-events li:nth-child(3n+1) {
+    margin-left: 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/abstractions\/_mixins\.scss}line{font-family:\0000335}}
+  .view-recent-events.view-display-id-panel_pane_3 .item-list.all-events li:nth-child(3n) {
+    margin-right: 0px; }
+
+/*FRONT FEATURED
+-------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_views\.scss}line{font-family:\00003129}}
+.view-front-featured .view-footer {
+  display: block;
+  clear: both;
+  margin: 1em 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_views\.scss}line{font-family:\00003135}}
+.view-front-featured .view-footer h2 {
+  font-size: 1.875em;
+  line-height: 1.2em; }
+
+/*FRONT PAGE (articles)
+-------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_views\.scss}line{font-family:\00003153}}
+.view-front-page h3 {
+  font-size: 18px;
+  font-size: 1.125rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_views\.scss}line{font-family:\00003157}}
+.view-front-page li {
+  /* for IE 6/7 */
+  *zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).style.cssText="clear:both;font:0/0 serif");
+  /* non-JS fallback */
+  *zoom: 1;
+  width: 46.66667%;
+  clear: right;
+  float: left;
+  margin-left: 1.66667%;
+  margin-right: 1.66667%;
+  width: 31.66667%;
+  clear: right;
+  float: left;
+  margin-left: 0.83333%;
+  margin-right: 0.83333%;
+  float: none !important;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  margin-bottom: 1.125em;
+  background: #fff;
+  padding: 10px;
+  border: 1px solid #cccccc; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.tcdc_omega\/gems\/toolkit-1\.3\.8\/stylesheets\/toolkit\/_clearfix\.scss}line{font-family:\0000348}}
+  .view-front-page li:before, .view-front-page li:after {
+    content: ".";
+    display: block;
+    height: 0;
+    overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.tcdc_omega\/gems\/toolkit-1\.3\.8\/stylesheets\/toolkit\/_clearfix\.scss}line{font-family:\0000355}}
+  .view-front-page li:after {
+    clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/abstractions\/_mixins\.scss}line{font-family:\0000318}}
+  .view-front-page li:nth-child(2n+1) {
+    margin-left: 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/abstractions\/_mixins\.scss}line{font-family:\0000329}}
+  .view-front-page li:nth-child(2n+1) {
+    margin-left: 1.04167%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/abstractions\/_mixins\.scss}line{font-family:\0000332}}
+  .view-front-page li:nth-child(3n+1) {
+    margin-left: 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/abstractions\/_mixins\.scss}line{font-family:\0000335}}
+  .view-front-page li:nth-child(3n) {
+    margin-right: 0px; }
+
+/**
+ * @group Sponsors block, and page
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_views\.scss}line{font-family:\00003174}}
+.view-sponsors.view-display-id-block_1 .item-list li,
+.view-sponsors.view-display-id-page .item-list li {
+  /* for IE 6/7 */
+  *zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).style.cssText="clear:both;font:0/0 serif");
+  /* non-JS fallback */
+  *zoom: 1;
+  width: 46.66667%;
+  clear: right;
+  float: left;
+  margin-left: 1.66667%;
+  margin-right: 1.66667%;
+  width: 31.66667%;
+  clear: right;
+  float: left;
+  margin-left: 0.83333%;
+  margin-right: 0.83333%;
+  float: none !important;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  margin-bottom: 1.125em;
+  background: #fff;
+  border: 1px solid #dfdfdf;
+  max-width: 120px;
+  margin-bottom: 10px;
+  float: left;
+  margin-right: 5px;
+  text-align: center;
+  max-width: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.tcdc_omega\/gems\/toolkit-1\.3\.8\/stylesheets\/toolkit\/_clearfix\.scss}line{font-family:\0000348}}
+  .view-sponsors.view-display-id-block_1 .item-list li:before, .view-sponsors.view-display-id-block_1 .item-list li:after,
+  .view-sponsors.view-display-id-page .item-list li:before,
+  .view-sponsors.view-display-id-page .item-list li:after {
+    content: ".";
+    display: block;
+    height: 0;
+    overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.tcdc_omega\/gems\/toolkit-1\.3\.8\/stylesheets\/toolkit\/_clearfix\.scss}line{font-family:\0000355}}
+  .view-sponsors.view-display-id-block_1 .item-list li:after,
+  .view-sponsors.view-display-id-page .item-list li:after {
+    clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/abstractions\/_mixins\.scss}line{font-family:\0000318}}
+  .view-sponsors.view-display-id-block_1 .item-list li:nth-child(2n+1),
+  .view-sponsors.view-display-id-page .item-list li:nth-child(2n+1) {
+    margin-left: 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/abstractions\/_mixins\.scss}line{font-family:\0000329}}
+  .view-sponsors.view-display-id-block_1 .item-list li:nth-child(2n+1),
+  .view-sponsors.view-display-id-page .item-list li:nth-child(2n+1) {
+    margin-left: 1.04167%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/abstractions\/_mixins\.scss}line{font-family:\0000332}}
+  .view-sponsors.view-display-id-block_1 .item-list li:nth-child(3n+1),
+  .view-sponsors.view-display-id-page .item-list li:nth-child(3n+1) {
+    margin-left: 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/abstractions\/_mixins\.scss}line{font-family:\0000335}}
+  .view-sponsors.view-display-id-block_1 .item-list li:nth-child(3n),
+  .view-sponsors.view-display-id-page .item-list li:nth-child(3n) {
+    margin-right: 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_views\.scss}line{font-family:\00003194}}
+.view-sponsors.view-display-id-block_1 .attachment .item-list li,
+.view-sponsors.view-display-id-page .attachment .item-list li {
+  max-width: 120px;
+  /* for IE 6/7 */
+  *zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).style.cssText="clear:both;font:0/0 serif");
+  /* non-JS fallback */
+  *zoom: 1;
+  width: 46.66667%;
+  clear: right;
+  float: left;
+  margin-left: 1.66667%;
+  margin-right: 1.66667%;
+  width: 23.33333%;
+  clear: right;
+  float: left;
+  margin-left: 0.83333%;
+  margin-right: 0.83333%;
+  float: none !important;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  margin-bottom: 1.125em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.tcdc_omega\/gems\/toolkit-1\.3\.8\/stylesheets\/toolkit\/_clearfix\.scss}line{font-family:\0000348}}
+  .view-sponsors.view-display-id-block_1 .attachment .item-list li:before, .view-sponsors.view-display-id-block_1 .attachment .item-list li:after,
+  .view-sponsors.view-display-id-page .attachment .item-list li:before,
+  .view-sponsors.view-display-id-page .attachment .item-list li:after {
+    content: ".";
+    display: block;
+    height: 0;
+    overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.tcdc_omega\/gems\/toolkit-1\.3\.8\/stylesheets\/toolkit\/_clearfix\.scss}line{font-family:\0000355}}
+  .view-sponsors.view-display-id-block_1 .attachment .item-list li:after,
+  .view-sponsors.view-display-id-page .attachment .item-list li:after {
+    clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/abstractions\/_mixins\.scss}line{font-family:\0000378}}
+  .view-sponsors.view-display-id-block_1 .attachment .item-list li:nth-child(3n), .view-sponsors.view-display-id-block_1 .attachment .item-list li:nth-child(3n+1),
+  .view-sponsors.view-display-id-page .attachment .item-list li:nth-child(3n),
+  .view-sponsors.view-display-id-page .attachment .item-list li:nth-child(3n+1) {
+    margin-left: 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/abstractions\/_mixins\.scss}line{font-family:\0000389}}
+  .view-sponsors.view-display-id-block_1 .attachment .item-list li:nth-child(4n+1),
+  .view-sponsors.view-display-id-page .attachment .item-list li:nth-child(4n+1) {
+    margin-left: 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/abstractions\/_mixins\.scss}line{font-family:\0000392}}
+  .view-sponsors.view-display-id-block_1 .attachment .item-list li:nth-child(4n),
+  .view-sponsors.view-display-id-page .attachment .item-list li:nth-child(4n) {
+    margin-right: 0px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_views\.scss}line{font-family:\00003203}}
+.view-sponsors.view-display-id-page .item-list li {
+  max-width: 120px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_views\.scss}line{font-family:\00003207}}
+.view-sponsors.view-display-id-page .attachment .item-list li {
+  max-width: 120px !important;
+  vertical-align: top; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_views\.scss}line{font-family:\00003212}}
+.view-sponsors.view-display-id-page .item-list:first-child li {
+  max-width: none; }
+
+/*OLD SITE STYLE DUMP
+-------------------------------- */
+/**
+ * @group Sponsors
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_views\.scss}line{font-family:\00003227}}
+.view-id-sponsors h3 {
+  background: #d64912;
+  clear: both;
+  color: #fff;
+  font-weight: normal;
+  padding: 2px 10px;
+  text-transform: uppercase; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_views\.scss}line{font-family:\00003240}}
+.view-id-sponsors .view-footer {
+  clear: both; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/_views\.scss}line{font-family:\00003244}}
+.view-id-sponsors h3 {
+  text-transform: none;
+  background: none;
+  color: #000;
+  font-weight: bold;
+  font-size: 1.5em; }
+
+/* @end Sponsors */
+/**
+ * $COMMENT-WRAPPER
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/comments\/_comment-wrapper\.scss}line{font-family:\000034}}
+.comment-wrapper {
+  padding: 18px 1em;
+  background-color: #d9e9ef; }
+
+/**
+ * $COMMENT
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/comments\/_comment\.scss}line{font-family:\000034}}
+.comment__info {
+  margin-top: 18px;
+  margin-bottom: 18px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/comments\/_comment\.scss}line{font-family:\000038}}
+  .comment__info .username {
+    margin-bottom: 9px;
+    color: #52b1ea;
+    text-transform: uppercase;
+    text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000315}}
+    .comment__info .username:hover {
+      text-decoration: underline; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000321}}
+.comment__content {
+  background-color: #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000327}}
+.comment__submitted {
+  display: inline; }
+
+/**
+ * $FIELD-TAXONOMY-TERM
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/fields\/_field-taxonomy-term\.scss}line{font-family:\000038}}
+.field--type-taxonomy-term-reference .field__item {
+  float: left;
+  margin-right: 0.5em; }
+
+/**
+ * $FIELD
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/fields\/_field\.scss}line{font-family:\000034}}
+.field {
+  margin-bottom: 0.375em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/fields\/_field\.scss}line{font-family:\000038}}
+.field--name-commerce-price {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin: 1em 0; }
+
+/**
+ * $COLLAPSIBLE
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/forms\/_collapsible\.scss}line{font-family:\000034}}
+html.js fieldset.collapsible {
+  padding: 0;
+  border: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/forms\/_collapsible\.scss}line{font-family:\000038}}
+  html.js fieldset.collapsible legend {
+    width: 100%;
+    padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/forms\/_collapsible\.scss}line{font-family:\0000312}}
+  html.js fieldset.collapsible .fieldset-legend {
+    padding: 0;
+    background: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/forms\/_collapsible\.scss}line{font-family:\0000316}}
+    html.js fieldset.collapsible .fieldset-legend .summary {
+      float: right; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/forms\/_collapsible\.scss}line{font-family:\0000320}}
+  html.js fieldset.collapsible .fieldset-title {
+    display: block;
+    padding: 1em;
+    background-color: #dddddd;
+    color: #077dc3;
+    text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/forms\/_collapsible\.scss}line{font-family:\0000329}}
+    html.js fieldset.collapsible .fieldset-title:hover {
+      background-color: #d9e9ef;
+      color: #064771; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/forms\/_collapsible\.scss}line{font-family:\0000334}}
+  html.js fieldset.collapsible .fieldset-wrapper {
+    padding: 18px 1em;
+    border: 1px solid #dddddd; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/forms\/_collapsible\.scss}line{font-family:\0000340}}
+html.js fieldset.collapsed {
+  height: 3.7em; }
+
+/**
+ * $FIELDSETS
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/forms\/_fieldsets\.scss}line{font-family:\000034}}
+.form-wrapper {
+  margin-bottom: 18px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/forms\/_fieldsets\.scss}line{font-family:\000039}}
+.fieldset-description {
+  margin-bottom: 9px;
+  color: #6a7076;
+  font-style: italic; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/forms\/_fieldsets\.scss}line{font-family:\0000315}}
+.vertical-tabs fieldset.vertical-tabs-pane {
+  padding: 18px 1em; }
+
+/**
+ * $FILTER-TIPS
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/forms\/_filter-tips\.scss}line{font-family:\000034}}
+.filter-wrapper {
+  background-color: #fff; }
+
+/**
+ * $FORM-ITEM
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/forms\/_form-items\.scss}line{font-family:\000034}}
+.form-item {
+  color: #6a7076; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/forms\/_form-items\.scss}line{font-family:\000037}}
+  .form-item label {
+    margin-bottom: 0.4em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/forms\/_form-items\.scss}line{font-family:\0000312}}
+  .form-item .form-select,
+  .form-item .form-text,
+  .form-item .form-textarea {
+    width: 100%;
+    padding: 0.2em;
+    background-color: #fff;
+    border: 1px solid #dddddd;
+    color: #6a7076;
+    vertical-align: middle;
+    max-width: 520px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/forms\/_form-items\.scss}line{font-family:\0000321}}
+    .form-item .form-select:focus,
+    .form-item .form-text:focus,
+    .form-item .form-textarea:focus {
+      background: #f4eddd; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/forms\/_form-items\.scss}line{font-family:\0000325}}
+  .form-item .description {
+    margin-top: 0.2em;
+    font-style: italic; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/forms\/_form-items\.scss}line{font-family:\0000334}}
+.container-inline .form-select,
+.container-inline .form-text,
+.container-inline .form-textarea {
+  width: auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/forms\/_form-items\.scss}line{font-family:\0000339}}
+.resizable-textarea .grippie {
+  max-width: 600px; }
+
+/**
+ * $PASSWORD-CONFIRM
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/forms\/_password-confirm\.scss}line{font-family:\000035}}
+div.password-indicator,
+div.password-confirm {
+  margin-top: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/forms\/_password-confirm\.scss}line{font-family:\000039}}
+div.password-indicator {
+  margin-bottom: 0.4em; }
+
+/**
+ * $PASSWORD-INDICATOR
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/forms\/_password-indicator\.scss}line{font-family:\000034}}
+.password-indicator {
+  height: 0.8em;
+  background: none;
+  border: 1px solid #dddddd; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/forms\/_password-indicator\.scss}line{font-family:\000039}}
+  .password-indicator .indicator {
+    background: #db7d0b; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/forms\/_password-indicator\.scss}line{font-family:\0000314}}
+.password-strength-title {
+  margin-bottom: 0.2em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/forms\/_search-form\.scss}line{font-family:\000031}}
+.block--search-form {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 980px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/forms\/_search-form\.scss}line{font-family:\000034}}
+  .block--search-form h2.label {
+    display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/forms\/_search-form\.scss}line{font-family:\000038}}
+  .block--search-form.contextual-links-region {
+    position: static; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/forms\/_search-form\.scss}line{font-family:\0000314}}
+  .block--search-form .search-form {
+    position: absolute;
+    top: 50px;
+    right: 0px;
+    background: #fff;
+    height: 32px;
+    padding: 0 22px 0 12px;
+    margin: 0 10px .5em 10px;
+    z-index: 600;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #cccccc;
+    text-align: center;
+    width: 100%;
+    max-width: 440px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/forms\/_search-form\.scss}line{font-family:\0000327}}
+    .block--search-form .search-form:focus {
+      background: #f4eddd; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/forms\/_search-form\.scss}line{font-family:\0000339}}
+    .block--search-form .search-form .form-text {
+      width: 100%;
+      padding: 0;
+      background-color: none;
+      border: none;
+      color: #6a7076;
+      font-size: 13px;
+      font-size: 0.8125rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/forms\/_search-form\.scss}line{font-family:\0000348}}
+    .block--search-form .search-form .form-submit {
+      position: absolute;
+      right: 5px;
+      top: 5px;
+      font-size: 12px;
+      font-size: 0.75rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/forms\/_search-form\.scss}line{font-family:\0000354}}
+    .lt-ie9 .block--search-form .search-form {
+      width: 300px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/forms\/_search-form\.scss}line{font-family:\0000360}}
+  .block--search-form .search-toggle {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    top: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/forms\/_search-form\.scss}line{font-family:\0000365}}
+    .block--search-form .search-toggle a {
+      display: block;
+      width: 25px;
+      height: 25px;
+      font-size: 0px;
+      color: #faf7f0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/forms\/_search-form\.scss}line{font-family:\0000372}}
+      .block--search-form .search-toggle a:hover {
+        color: #a1cd46; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/forms\/_search-form\.scss}line{font-family:\0000377}}
+    .block--search-form .search-toggle a:before {
+      font-family: "tcdrupal" !important;
+      content: attr(data-icon);
+      font-style: normal !important;
+      font-weight: normal !important;
+      font-variant: normal !important;
+      text-transform: none !important;
+      speak: none;
+      line-height: 1;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      content: "e";
+      font-size: 24px;
+      font-size: 1.5rem; }
+
+/*jQuery Accordion
+----------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/misc\/_accordions\.scss}line{font-family:\000034}}
+.ui-accordion .ui-accordion-header a {
+  display: block;
+  padding: .3em .5em .3em .7em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/misc\/_accordions\.scss}line{font-family:\000038}}
+.ui-accordion-icons .ui-accordion-header a {
+  padding-left: 2.2em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/misc\/_accordions\.scss}line{font-family:\0000311}}
+.ui-accordion .ui-accordion-header .ui-icon {
+  position: absolute;
+  left: .5em;
+  top: 50%;
+  margin-top: -8px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/misc\/_accordions\.scss}line{font-family:\0000316}}
+.ui-accordion .ui-accordion-content {
+  padding: 1em 2.2em;
+  border-top: 0;
+  margin-top: -2px;
+  position: relative;
+  top: 1px;
+  margin-bottom: 2px;
+  overflow: auto;
+  display: none;
+  zoom: 1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/misc\/_accordions\.scss}line{font-family:\0000327}}
+.ui-accordion .ui-accordion-content-active {
+  display: block; }
+
+/**
+ * $BORDER-LIST
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/misc\/_border-list\.scss}line{font-family:\000034}}
+.border-list {
+  padding: 0;
+  list-style: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/misc\/_border-list\.scss}line{font-family:\000039}}
+  .border-list li {
+    padding-bottom: 0.375em;
+    margin-bottom: 0.375em;
+    border-bottom: 1px solid #dddddd; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/misc\/_border-list\.scss}line{font-family:\0000314}}
+    .border-list li:last-child {
+      padding-bottom: 0;
+      margin-bottom: 0;
+      border-bottom: none; }
+
+/**
+ * $BUTTONS
+ */
+/* Base Button */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/misc\/_buttons\.scss}line{font-family:\000035}}
+.button, .views-field-edit-node a, .views-submit-button input, .views-reset-button input, .webform-submit {
+  display: inline-block;
+  height: 2em;
+  margin: 0.75em 0;
+  padding: 0 1.2em;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #cccccc), color-stop(100%, #222222));
+  background-image: -webkit-linear-gradient(#cccccc, #222222);
+  background-image: -moz-linear-gradient(#cccccc, #222222);
+  background-image: -o-linear-gradient(#cccccc, #222222);
+  background-image: linear-gradient(#cccccc, #222222);
+  border: none;
+  text-shadow: 0px 1px 3px #cccccc;
+  line-height: 2;
+  text-transform: uppercase;
+  vertical-align: middle;
+  white-space: nowrap;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-family: "Rokkitt", Rockwell, Helvetica, Arial, sans-serif;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
+  overflow: visible;
+  cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/misc\/_buttons\.scss}line{font-family:\0000325}}
+  .panels-sidebar-second .button, .panels-sidebar-second .views-field-edit-node a, .views-field-edit-node .panels-sidebar-second a, .panels-sidebar-second .views-submit-button input, .views-submit-button .panels-sidebar-second input, .panels-sidebar-second .views-reset-button input, .views-reset-button .panels-sidebar-second input, .panels-sidebar-second .webform-submit {
+    margin-top: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/misc\/_buttons\.scss}line{font-family:\0000329}}
+  .lt-ie9 .button, .lt-ie9 .views-field-edit-node a, .views-field-edit-node .lt-ie9 a, .lt-ie9 .views-submit-button input, .views-submit-button .lt-ie9 input, .lt-ie9 .views-reset-button input, .views-reset-button .lt-ie9 input, .lt-ie9 .webform-submit {
+    background-color: #222222; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/misc\/_buttons\.scss}line{font-family:\0000338}}
+  .button:active, .views-field-edit-node a:active, .views-submit-button input:active, .views-reset-button input:active, .webform-submit:active, .button:focus, .views-field-edit-node a:focus, .views-submit-button input:focus, .views-reset-button input:focus, .webform-submit:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5) inset; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/misc\/_buttons\.scss}line{font-family:\0000343}}
+  .button::-moz-focus-inner, .views-field-edit-node a::-moz-focus-inner, .views-submit-button input::-moz-focus-inner, .views-reset-button input::-moz-focus-inner, .webform-submit::-moz-focus-inner {
+    border: 0;
+    padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/misc\/_buttons\.scss}line{font-family:\0000348}}
+  .button a, .views-field-edit-node a a, .views-submit-button input a, .views-reset-button input a, .webform-submit a {
+    color: #faf7f0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/misc\/_buttons\.scss}line{font-family:\0000351}}
+    .button a:hover, .views-field-edit-node a a:hover, .views-submit-button input a:hover, .views-reset-button input a:hover, .webform-submit a:hover {
+      color: #a1cd46; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/misc\/_buttons\.scss}line{font-family:\0000354}}
+    .button a:active, .views-field-edit-node a a:active, .views-submit-button input a:active, .views-reset-button input a:active, .webform-submit a:active {
+      color: #688825; }
+
+/* Fill width of container */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/misc\/_buttons\.scss}line{font-family:\0000361}}
+.button--full {
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/misc\/_buttons\.scss}line{font-family:\0000369}}
+.button--tiny, .views-field-edit-node a {
+  text-transform: none;
+  font-size: 14px;
+  font-size: 0.875rem;
+  letter-spacing: 0;
+  padding: 0 .5em;
+  background-color: #dddddd; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/misc\/_buttons\.scss}line{font-family:\0000376}}
+  .button--tiny a, .views-field-edit-node a a {
+    color: #cccccc; }
+
+/* Inherit sizing from parent  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/misc\/_buttons\.scss}line{font-family:\0000384}}
+.button--natural {
+  vertical-align: baseline;
+  font-size: inherit;
+  line-height: inherit;
+  height: auto;
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+  letter-spacing: 0; }
+
+/* Button Functions */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/misc\/_buttons\.scss}line{font-family:\0000395}}
+.button--primary, .button-primary {
+  background-color: #a1cd46; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/misc\/_buttons\.scss}line{font-family:\0000399}}
+.button--secondary {
+  background-color: transparent;
+  border-color: #a1cd46;
+  border-style: solid;
+  border-width: 0.0625em;
+  padding: 0.3125em;
+  color: #000; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/misc\/_buttons\.scss}line{font-family:\00003105}}
+  .button--secondary:hover {
+    border-color: #cccccc;
+    background-color: transparent;
+    color: #6a7076; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/misc\/_buttons\.scss}line{font-family:\00003112}}
+.button--positive, .views-submit-button input {
+  background-color: #4e9acf; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/misc\/_buttons\.scss}line{font-family:\00003114}}
+  .button--positive:hover, .views-submit-button input:hover {
+    background-color: #3281b8; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/misc\/_buttons\.scss}line{font-family:\00003119}}
+.button--negative {
+  background-color: #cccccc; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/misc\/_buttons\.scss}line{font-family:\00003121}}
+  .button--negative:hover {
+    background-color: #b3b3b3; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/misc\/_buttons\.scss}line{font-family:\00003129}}
+.button--disabled,
+.button--disabled:hover,
+.button--disabled:active,
+.button--disabled:focus {
+  background-color: #ddd;
+  color: #777;
+  cursor: default;
+  box-shadow: none; }
+
+/* Adjacent buttons should have some space between them. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/misc\/_buttons\.scss}line{font-family:\00003138}}
+.button + .button, .views-field-edit-node a + .button, .views-submit-button input + .button, .views-reset-button input + .button, .webform-submit + .button, .views-field-edit-node .button + a, .views-field-edit-node a + a, .views-submit-button .views-field-edit-node input + a, .views-field-edit-node .views-submit-button input + a, .views-reset-button .views-field-edit-node input + a, .views-field-edit-node .views-reset-button input + a, .views-field-edit-node .webform-submit + a, .views-submit-button .button + input, .views-field-edit-node .views-submit-button a + input, .views-submit-button .views-field-edit-node a + input, .views-submit-button input + input, .views-submit-button .webform-submit + input, .views-reset-button .button + input, .views-field-edit-node .views-reset-button a + input, .views-reset-button .views-field-edit-node a + input, .views-reset-button input + input, .views-reset-button .webform-submit + input, .button + .webform-submit, .views-field-edit-node a + .webform-submit, .views-submit-button input + .webform-submit, .views-reset-button input + .webform-submit, .webform-submit + .webform-submit,
+.button + a,
+.views-field-edit-node a + a,
+.views-submit-button input + a,
+.views-reset-button input + a,
+.webform-submit + a {
+  margin-left: 1em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/misc\/_buttons\.scss}line{font-family:\00003142}}
+.webform-submit {
+  color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/misc\/_buttons\.scss}line{font-family:\00003146}}
+  .webform-submit:hover {
+    color: #a1cd46; }
+
+/*FLEXsliders
+----------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/misc\/_flexsliders\.scss}line{font-family:\000034}}
+.flexslider {
+  border: none;
+  /*reset styling*/
+  box-shadow: none;
+  margin: 1em 0 0;
+  background: none;
+  margin: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/misc\/_flexsliders\.scss}line{font-family:\0000315}}
+.flexslider .slides img {
+  max-width: 500px;
+  border: 1px dotted #cccccc;
+  margin: 10px auto 0;
+  max-width: 100%;
+  margin: 0; }
+
+/*override default, make direction visible always*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/misc\/_flexsliders\.scss}line{font-family:\0000329}}
+.flexslider .flex-direction-nav a {
+  display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/misc\/_flexsliders\.scss}line{font-family:\0000333}}
+.flex-control-nav {
+  bottom: -20px;
+  min-height: 20px;
+  position: relative; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/misc\/_flexsliders\.scss}line{font-family:\0000339}}
+.flex-caption {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  padding: 10px;
+  color: #faf7f0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/misc\/_flexsliders\.scss}line{font-family:\0000345}}
+  .flex-caption a {
+    color: #faf7f0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/misc\/_flexsliders\.scss}line{font-family:\0000350}}
+.flex-direction-nav .flex-prev {
+  left: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/misc\/_flexsliders\.scss}line{font-family:\0000353}}
+.flex-direction-nav .flex-next {
+  right: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/misc\/_flexsliders\.scss}line{font-family:\0000357}}
+.flex-direction-nav a {
+  top: 28%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/misc\/_flexsliders\.scss}line{font-family:\0000361}}
+.flex-direction-nav li {
+  line-height: 40px;
+  /*add to avoid cutoff*/ }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/misc\/_flexsliders\.scss}line{font-family:\0000367}}
+.flex-direction-nav .flex-prev,
+.flex-direction-nav .flex-next,
+.flex-direction-nav a {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0; }
+
+/**
+ * $MESSAGES
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/misc\/_messages\.scss}line{font-family:\000034}}
+.messages {
+  padding-left: 10px;
+  margin-bottom: 18px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/misc\/_messages\.scss}line{font-family:\0000312}}
+.messages--status {
+  color: #104879;
+  background: #97c7f1;
+  border-color: #1c7ed3; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/misc\/_messages\.scss}line{font-family:\0000318}}
+.messages--warning {
+  color: #222222;
+  background: white;
+  border-color: #cae396; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/misc\/_messages\.scss}line{font-family:\0000324}}
+.messages--error {
+  color: #faf7f0;
+  background: #db7d0b;
+  border-color: #db7d0b; }
+
+/**
+ * $PAGER
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/misc\/_pager\.scss}line{font-family:\000038}}
+.pager__item {
+  display: block;
+  float: left;
+  margin: 0.1em;
+  padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/misc\/_pager\.scss}line{font-family:\0000317}}
+.pager__item a,
+.pager__item--current,
+.pager__item--ellipsis {
+  display: block;
+  padding: 0.5em 0.8em;
+  border: 1px solid #cccccc;
+  color: #6a7076;
+  text-decoration: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/misc\/_pager\.scss}line{font-family:\0000324}}
+.pager__item a:hover {
+  background-color: #104879;
+  border-color: #104879;
+  color: #faf7f0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/misc\/_pager\.scss}line{font-family:\0000329}}
+.pager__item--current {
+  border-color: #104879;
+  color: #104879; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/misc\/_pager\.scss}line{font-family:\0000333}}
+.pager__item--ellipsis {
+  border: none; }
+
+/**
+ * $PROGRESS
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/misc\/_progress\.scss}line{font-family:\000035}}
+.progress .bar {
+  background-color: #dddddd;
+  border-color: #6a7076;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/misc\/_progress\.scss}line{font-family:\0000310}}
+.progress .filled {
+  background: #a1cd46; }
+
+/**
+ * $SECTION-TITLE
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/misc\/_section-title\.scss}line{font-family:\000034}}
+.section-title {
+  padding-bottom: 0.1875em;
+  margin-bottom: 0.375em;
+  border-bottom: 1px solid #bcd8e3; }
+
+/**
+ * $SITE-BRANDING
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danmoriarty\/Sites\/gitrepos\/2014\.tcdrupal\.org\/themes\/tcdc_omega\/sass\/components\/misc\/_site-branding\.scss}line{font-family:\0000315}}
+.site-branding__name {
+  text-decoration: none; }

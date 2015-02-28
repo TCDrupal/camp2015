@@ -1,0 +1,326 @@
+/**
+ * $BREADCRUMBS
+ */
+.breadcrumb {
+  @extend %hlist;
+  max-width: 1200px;
+  margin:0 auto 2px;
+
+
+  li {
+    padding-right: 0.4em;
+    color: $grey;
+    line-height: 1.3;
+
+
+    &:after {
+      content: "&raquo;";
+      padding-left: 0.4em;
+      vertical-align: baseline;
+    }
+    &:last-child:after {
+      content: "";
+    }
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
+
+/*MAIN MENU, Superfish Styles 
+----------------------------------*/
+
+.block--superfish-1 {
+  margin:.5em;
+  position: absolute;
+  top:-30px;
+  left: 0px;
+  z-index: 500;
+  
+  @include breakpoint($tab, true) {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin: 0;
+  }
+}
+
+/*TOP LEVEL */
+
+.sf-menu.sf-horizontal {
+  @include clearfix;
+  text-align: center;
+}
+
+.sf-menu.sf-horizontal li {
+  @include font-size(24px);
+  @include inline-block;
+  font-family: $header;
+  float: none;
+  
+  .sf-sub-indicator {
+    display:none;
+  }
+
+  a {
+    color:#000;
+    padding:0 10px;
+
+    &:hover, &.active, &.active-trail {
+      color: darken($tcdc-green, 20%);
+      text-decoration: underline;
+    }
+  }
+}
+
+.sf-menu.sf-horizontal li.last a {
+  padding-right:0px !important;
+}
+
+/*DROPDOWNS, FIRST SET */
+
+.sf-menu.sf-horizontal li:hover ul, 
+.sf-menu.sf-horizontal li.sfHover ul {
+  left: 0;
+  top: 1.4em;
+  border-radius:0px 0px 5px 5px;
+  padding:0px;
+}
+
+.sf-menu.sf-horizontal li li {
+  height:auto;
+  padding:0px;
+  @include font-size(16px);
+  color:$light-grey;
+  text-align: left;
+  display: block;
+  float: left;//reset from top level
+
+  a {   
+    color:$tcdc-navy;
+    text-transform:none;
+    background:$tcdc-green;
+    padding:0.4em;/*reset padding*/
+    width:auto;
+    border-bottom: 1px dotted $dark-grey;
+
+    &.active, &:active {
+      background:$tcdc-blue;
+    }
+    &:hover {
+      background:lighten($tcdc-green, 10%);
+      text-decoration:underline;
+      color: $tcdc-blue;
+    }
+  }
+
+  .sf-sub-indicator {
+    display: block;
+  }
+}
+
+/*SECOND LEVEL */
+.sf-menu.sf-horizontal li li li a  {
+  text-transform: none;    
+}
+
+/*Main Menu, Accordion Styles */
+
+/*TOGGLE */
+.block--superfish-1 .sf-accordion-toggle {
+  left:0px;
+  position: absolute;
+  top: -36px;
+
+  a {
+    display: block;
+    width:30px;
+    height:30px;
+    position:relative;
+    top:24px;
+    left:0px;
+    color: $tcdc-white;    
+    
+    &:before {
+      @include fonticon ("a");
+      @include font-size(28px);
+    }
+    &.sf-expanded:before {
+      @include fonticon("n");
+    }
+  }
+
+  span {
+    position: absolute;
+    left:35px;
+    top:0px;
+    display:none;
+    /*hide menu text*/
+  }
+}
+
+/*EXPANDED MENU*/
+
+.block--superfish-1 .sf-accordion.sf-menu {
+  margin-top: 30px;
+  background:$tcdc-navy;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.block--superfish-1 .sf-accordion.sf-menu li a {
+  border-bottom: 1px dotted $light-grey;
+  color: $white;
+  padding: 0.75em 1em;
+  @include font-size(14px);
+  text-transform: uppercase;
+  font-weight: bold;
+
+  &:hover {
+    background:$tcdc-blue;
+    color: $white;
+  }
+}
+
+.block--superfish-1 .sf-accordion.sf-menu li.sf-expanded {
+  border: 1px solid #ccc;
+  border-bottom:none;
+
+  a {
+    border:none;//reset
+  }
+
+  ul {
+    margin:1em 0;
+  }
+
+  ul li a {
+    border:none;
+    text-transform:none;
+    margin:0;
+    padding: 0.35em 0.5em .35em 1.5em;
+  }
+}
+
+//level 2 of accordion menu
+
+.block--superfish-1 .sf-accordion.sf-menu li li {
+}
+
+.block--superfish-1 .sf-accordion.sf-menu li a li a {
+    padding-left: 10px;
+    text-transform: none;
+    border:none;
+    background:$grey;
+}
+
+
+/*SECONDARY MENU
+--------------------------- */
+
+.block--menu-menu-secondary {
+  @include constrained;
+  @extend %hlist;
+  padding:0 10px;
+
+  ul.menu {
+    padding-left: 0;
+    font-family: $header;
+    text-transform: uppercase;
+    text-align: center;
+    @include breakpoint($tab, true) {
+      margin:0;
+      float: right;
+      text-align: left;
+    }
+  }
+
+  ul.menu > li.leaf {
+    list-style-image: none;
+    padding-right:10px;
+    float: none;/*no float til wider screen*/
+
+    @include breakpoint($tab, true) {
+      float: left;
+    }
+
+    &.last {
+      padding-right:0px;
+    }
+
+    a{
+
+      &:hover, &.active {
+      }
+    }
+  }
+
+
+
+}
+
+
+/*USER MENU
+------------------------- */
+
+.block--system-user-menu {
+  margin:10px auto;
+  width:100%;
+  float: left;
+  @include clearfix;
+
+  @include breakpoint($tab, true) {
+    float: right;
+    margin-right:50px;
+    width:auto;
+  }
+  @include breakpoint($desk, true) {
+  }
+
+  ul.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+
+  ul.menu li {
+    @include inline-block;
+    margin-right: 2px;
+    @include font-size(13px);
+
+    @include breakpoint($smalltab, true) {
+      @include font-size(15px);
+    }
+
+    @include breakpoint($tab, true) {
+      margin-right: 10px;
+      @include font-size(16px);
+    }
+
+     a {
+      color:$tcdc-white;
+      position:relative;
+
+      &:hover, &.active {
+        color:$pale-blue;
+        text-decoration: underline;
+      }
+
+
+    }
+
+  }
+
+}
+
+
+/*MENU block
+---------------------------- */
+.block.block--menu-block {
+
+  .menu {
+    padding:0 20px;
+  }
+}

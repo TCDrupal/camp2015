@@ -1,0 +1,172 @@
+/*******************************************************************************
+ * citizen.layout.scss
+ *
+ * Styling of the "citizen" PAGE layout
+ ******************************************************************************/
+@import "compass";
+@import "breakpoint";
+@import "singularitygs";
+
+// Globbing from within sub-folders only works with relative paths.
+@import "../../variables/**/*";
+
+.l-page {
+    margin: 0 auto;
+    width:100%;
+    padding:0;
+}
+
+.l-constrained {
+  @include pie-clearfix;
+  padding: 0 20px;
+  max-width:$max-width;
+}
+
+/* Header ---------------- */
+
+.l-header {
+  $grids:6;
+  
+  .l-constrained {
+    margin:0 auto;
+    position: relative;
+    padding: 0 10px;
+  }
+
+  .l-branding { }
+  .l-region--header { }
+  
+  .l-region--navigation {
+    .not-front & {
+      @include trailing-border;
+      border-color:$grey;
+    }
+  }
+
+}
+
+/* Content Area ---------------*/
+
+.l-main {
+  margin:0 auto;
+  margin-top: .5 * $vert-spacing-unit;
+  margin-bottom: .5 * $vert-spacing-unit;
+  max-width:$max-width;
+}
+
+
+/* Sidebars */
+
+.l-region--sidebar-first,
+.l-region--sidebar-second {
+}
+
+
+/* Footer -----------------------*/
+
+.l-footer-wrapper {
+  padding: $vert-spacing-unit 0;
+  @include clearfix;
+}
+
+.bottom-wrap, .footer-wrap {
+  padding: 0 20px;
+}
+
+.l-region--footer, .l-region--bottom {
+  padding: 0;
+}
+
+
+
+//TABLETS
+
+@include breakpoint($tab, true) {
+  
+  .l-constrained {
+  }
+
+  /* Header ---------------- */
+  .l-header {
+  }
+
+  /* Maincontent ---------------- */
+  .l-main {
+
+
+    /* Sidebars */
+    
+    .has-one-sidebar & {
+      
+      .l-content {
+        @include grid-span(4, 1);
+      }
+      
+      .l-region--sidebar-first,
+      .l-region--sidebar-second {
+        @include grid-span(2, 5);
+        clear: right;
+      }
+    }
+
+    .has-two-sidebars & {
+       .l-content {
+        @include grid-span(2, 1);
+      }
+      
+      .l-region--sidebar-first {
+        @include grid-span(2, 3);
+      }
+      .l-region--sidebar-second {
+        @include grid-span(2, 5);
+      }
+    }
+  
+  }
+}
+
+//DESKTOPS
+
+@include breakpoint($desk, true) {
+
+
+
+  /* Header ---------------- */
+
+  .l-header {
+      $grids:12;
+
+  }
+
+  /* Maincontent ---------------- */
+  .l-main {
+
+
+    /* Sidebars */
+    .has-one-sidebar & {
+        .l-content {
+          @include grid-span(8, 1);
+
+        }
+        .l-region--sidebar-first,
+        .l-region--sidebar-second {
+          @include grid-span(4, 9);
+          clear: none;
+        }
+    }
+      
+    .has-two-sidebars & {
+        .l-content {
+          @include grid-span(6, 1);
+        }
+        .l-region--sidebar-first,
+        .l-region--sidebar-second {
+          @include grid-span(3, 7);
+          clear: none;
+        }
+        .l-region--sidebar-second {
+          @include grid-span(3, 10);
+        }
+    }
+  }
+}

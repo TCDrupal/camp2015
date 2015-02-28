@@ -1,0 +1,189 @@
+<?php
+/**
+ * @file
+ * Code for the COD Session feature.
+ */
+
+// Define variables values for scheduling content types.
+define('COD_SCHEDULE_SINGLE', 'single');
+define('COD_SCHEDULE_MULTIPLE', 'multiple');
+
+/**
+ * Implementation of hook_views_api().
+ */
+function cod_session_views_api() {
+  return array(
+    'api' => 2,
+  );
+}
+
+/**
+ * Helper function to determine content types with room and time slot fields.
+ */
+function cod_session_schedulable_types() {
+  $schedulable_types = array();
+  $types = node_type_get_types();
+  foreach ($types as $type => $content_type) {
+    $bundle = field_info_instances('node', $type);
+    if (isset($bundle['field_room']) && isset($bundle['field_timeslot_ref'])) {
+      $schedulable_types[$type] = $content_type->name;
+    }
+  }
+  return $schedulable_types;
+}
+
+
+/**
+ * Get schedulable content created by a user.
+ *
+ * @param object $account
+ *  Account to retrieve content for.
+ * @param string $type
+ *  Content type to search for.
+ * @param boolean $unscheduled
+ *  Whether to return all BoFs or just those unscheduled.
+ * @return array
+ *  Array of BoF nodes or empty.
+ */
+function cod_session_users_content($account, $type, $unscheduled = FALSE) {
+  $bofs = array();
+
+  $query = new EntityFieldQuery();
+  $query->entityCondition('entity_type', 'node')
+  ->entityCondition('bundle', $type)
+  ->propertyCondition('status', 1)
+  ->propertyCondition('uid', $account->uid);
+  if ($unscheduled) {
+    // @todo possible to use fieldCondition somehow?
+    //$query->fieldCondition('field_session_room', 'nid', 'NULL', '!=')
+      //->fieldCondition('field_session_slot', 'nid', 'NULL', '!=');
+  }
+  $result = $query->execute();
+  if (isset($result['node'])) {
+    $nids = array_keys($result['node']);
+    $bofs = entity_load('node', $nids);
+  }
+  if ($unscheduled) {
+    $hold = array();
+    foreach ($bofs as $nid => $bof) {
+      if (empty($bof->field_session_room) && empty($bof->field_session_slot)) {
+        $hold[$nid] = $bof;
+      }
+    }
+    $bofs = $hold;
+  }
+
+  return $bofs;
+}
+
+/**
+ * Implements hook_theme().
+ */
+function cod_session_theme($existing, $type, $theme, $path) {
+  return array(
+    'cod_session_schedule' => array(
+      'variables' => array('view' => NULL, 'options' => NULL, 'rows' => NULL, 'title' => NULL),
+      'template' => 'cod-session-schedule',
+    ),
+    'cod_session_scheduler_form' => array(
+  		'render element' => 'form'
+  	),
+  );
+}
+
+
+/**
+ * Recursive ksort.
+ */
+function cod_session_ksort_recurse(&$array) {
+  ksort($array);
+  foreach (array_keys($array) as $key) {
+    if (is_array($array[$key])) {
+      cod_session_ksort_recurse($array[$key]);
+      ksort($array[$key]);
+    }
+    else {
+      return;
+    }
+  }
+}
+
+/**
+ * @TODO: This function needs to be upgraded to D7.
+ *
+ * Create array of machine-readable keys.
+ */
+function _cod_session_machine_keys($prefix, $keys) {
+  $machine_keys = array();
+  foreach ($keys as $index => $key) {
+    $machine_key_raw = trim(preg_replace('/_+/', '_', preg_replace('/[^a-z0-9]+/', '_', drupal_strtolower($key))), '_');
+    if ($machine_key_raw == '') {
+      $machine_key_raw = $index;
+    }
+    $machine_key = $prefix . '-' . $machine_key_raw;
+    if (in_array($machine_key, $machine_keys)) {
+      $machine_key .= '-' . $index;
+    }
+    $machine_keys[$index] = $machine_key;
+  }
+  return $machine_keys;
+}
+
+/**
+ * Helper function computes time slot range.
+ *
+ * @param object Time slot node.
+ * @return array Array of start and end times.
+ */
+function cod_session_time_slot_format($slot) {
+  static $ranges = array();
+  if (!isset($ranges[$slot->nid])) {
+    $date_start = new DateObject($slot->field_slot_datetime[LANGUAGE_NONE][0]['value'], $slot->field_slot_datetime[LANGUAGE_NONE][0]['timezone_db']);
+    $date_end = new DateObject($slot->field_slot_datetime[LANGUAGE_NONE][0]['value2'], $slot->field_slot_datetime[LANGUAGE_NONE][0]['timezone_db']);
+    date_timezone_set($date_start, timezone_open($slot->field_slot_datetime[LANGUAGE_NONE][0]['timezone']));
+    date_timezone_set($date_end, timezone_open($slot->field_slot_datetime[LANGUAGE_NONE][0]['timezone']));
+    $day = date_format_date($date_start, 'custom', 'F j');
+    $start = date_format_date($date_start, 'custom', 'g:iA');
+    $end = date_format_date($date_end, 'custom', 'g:iA');
+    $ranges[$slot->nid] = array(
+      'day' => $day,
+      'formatted_start' => $start,
+      'formatted_end' => $end,
+      'date_start' => $date_start,
+      'date_end' => $date_end,
+    );
+  }
+  return $ranges[$slot->nid];
+}
+
+/**
+ * Title callback.
+ */
+function _cod_session_scheduler_title($type) {
+  $type_info = node_type_get_type($type);
+  return t('Schedule a @name', array('@name' => $type_info->name));
+}
+
+/**
+ * Helper function to determine content types with single schedule types.
+ */
+function cod_session_single_schedulable_types() {
+  $single_types = array();
+  $types = node_type_get_types();
+  foreach ($types as $type => $content_type) {
+    $bundle = field_info_instances('node', $type);
+    if (isset($bundle['field_room']) && isset($bundle['field_timeslot_ref']) && variable_get('cod_unique_' . $type, COD_SCHEDULE_SINGLE) == COD_SCHEDULE_SINGLE) {
+      $single_types[] = $type;
+    }
+  }
+
+  return $single_types;
+}
+
+function cod_session_custom_theme() {
+  if (arg(4) == 'sessions' && arg(5) == 'sign') {
+    $path = drupal_get_path('module', 'cod_session');
+    drupal_add_css($path . '/css/sign-style.css');
+    return 'seven';
+  }
+}

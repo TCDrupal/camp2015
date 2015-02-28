@@ -1,0 +1,13 @@
+/**
+ * $FIELD
+ */
+.field {
+  @include trailer(1);
+}
+
+.field--name-commerce-price {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin:1em 0;
+}
+

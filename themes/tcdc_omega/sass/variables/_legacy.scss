@@ -1,0 +1,5 @@
+// Legacy support in Compass
+//Setting these to false will result in smaller output, but no support for ie hacks
+$legacy-support-for-ie6: false;
+$legacy-support-for-ie7: true;
+$legacy-support-for-ie8: true;
